@@ -1,6 +1,10 @@
 # Exercícios em Python 🐍
 
-Bem-vindo ao repositório de exercícios em Python! Aqui você encontrará uma coleção de para me ajudar e ajudá-lo a aprender e praticar programação em Python.
+Bem-vindo ao repositório de exercícios em Python! Aqui você encontrará uma coleção de exercícios para ajudar no seu aprendizado e prática de programação em Python.
+
+## 📁 Estrutura do Repositório
+
+- **[Estrutura Sequencial](./Estrutura%20Sequencial/)**: Exercícios básicos sobre sequência de comandos em Python.
 
 ## 🚀 Como usar este repositório
 
@@ -19,3 +23,7 @@ Além dos exercícios, recomendo os seguintes recursos para ajudar no seu aprend
 - Plataformas online: Codecademy, Coursera, edX
 
 Vapo!!! 🌟
+
+## 📜 Licença
+
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
