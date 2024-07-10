@@ -4,7 +4,7 @@ Bem-vindo ao repositório de exercícios em Python! Aqui você encontrará uma c
 
 ## 📁 Estrutura do Repositório
 
-- **[Estrutura Sequencial](./Estrutura%20Sequencial/)**: Exercícios básicos sobre sequência de comandos em Python.
+- **[Estrutura Sequencial](./Estrutura%20Sequencial/exercicios.md)**: Exercícios básicos sobre sequência de comandos em Python.
 
 ## 🚀 Como usar este repositório
 
@@ -27,5 +27,3 @@ Além dos exercícios, recomendo os seguintes recursos para ajudar no seu aprend
 Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
-
-### [Lista de Exercícios - Estrutura Sequencial](./Estrutura%20Sequencial/exercicios.md)
