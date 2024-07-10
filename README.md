@@ -22,8 +22,10 @@ Além dos exercícios, recomendo os seguintes recursos para ajudar no seu aprend
 - Livros: "Automate the Boring Stuff with Python" e "Python Crash Course"
 - Plataformas online: Codecademy, Coursera, edX
 
-Vapo!!! 🌟
-
 ## 📜 Licença
 
 Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+### [Lista de Exercícios - Estrutura Sequencial](./Estrutura%20Sequencial/exercicios.md)
