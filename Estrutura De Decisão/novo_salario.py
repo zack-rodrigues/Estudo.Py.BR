@@ -23,5 +23,3 @@ print(f'Seu salário anterior era de R${salario:.2f}')
 print(f'A porcentagem de aumento vai ser {trueporcentagem:.2f}%')
 print(f'O valor do aumento sera de R${aumento:.2f}')
 print(f'Logo o seu salario vai para R${aumento_total:.2f}')
-
-  
