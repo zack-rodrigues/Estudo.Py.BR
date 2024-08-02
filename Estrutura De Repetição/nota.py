@@ -1,16 +1,10 @@
-intervalo_validos = range(0, 11)
+notas = list(range(0, 11))
 
 while True:
-    # Solicita ao usuário que digite a nota
-    nota = int(input('Digite sua nota de 0 a 10: '))
-
-    # Verifica se a nota está no intervalo válido usando um for loop
-    for valor in intervalo_validos:
-        if nota == valor:
-            print('Sua nota foi registrada.')
-            break
+    nota = float(input("Digite uma nota entre 0 e 10: "))
+    
+    if nota not in notas:
+        print("Nota inválida. Digite um valor entre 0 e 10.")
     else:
-        print('Nota inválida. Tente novamente.')
-        continue  # Volta ao início do loop para pedir a nota novamente
-      # Sai do loop se a nota for válida
-    break
+        break
+print('Nota registrada')
