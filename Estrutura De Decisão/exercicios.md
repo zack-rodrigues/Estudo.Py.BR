@@ -143,7 +143,7 @@ Aqui estão os exercícios para praticar estruturas de decisão em Python. Cliqu
     - Morango         R$ 2,50 por Kg          R$ 2,20 por Kg
     - Maçã            R$ 1,80 por Kg          R$ 1,50 por Kg
     Se o cliente comprar mais de 8 Kg em frutas ou o valor total da compra ultrapassar R$ 25,00, receberá ainda um desconto de 10% sobre este total. Escreva um algoritmo para ler a quantidade (em Kg) de morangos e a quantidade (em Kg) de maçãs adquiridas e escreva o valor a ser pago pelo cliente.  
-    [Código](desconto_frutas.py)
+    [Código](frutas.py)
 
 28. **O Hipermercado Tabajara está com uma promoção de carnes que é imperdível. Confira:**
     - Até 5 Kg           Acima de 5 Kg
@@ -151,4 +151,4 @@ Aqui estão os exercícios para praticar estruturas de decisão em Python. Cliqu
     - Alcatra         R$ 5,90 por Kg          R$ 6,80 por Kg
     - Picanha         R$ 6,90 por Kg          R$ 7,80 por Kg
     Para atender a todos os clientes, cada cliente poderá levar apenas um dos tipos de carne da promoção, porém não há limites para a quantidade de carne por cliente. Se a compra for feita no cartão Tabajara o cliente receberá ainda um desconto de 5% sobre o total da compra. Escreva um programa que peça o tipo e a quantidade de carne comprada pelo usuário e gere um cupom fiscal, contendo as informações da compra: tipo e quantidade de carne, preço total, tipo de pagamento, valor do desconto e valor a pagar.  
-    [Código](cupom_fiscal.py)
+    [Código](carnes.py)
