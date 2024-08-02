@@ -5,7 +5,7 @@ Bem-vindo ao repositório de exercícios em Python! Aqui você encontrará uma c
 ## 📁 Estrutura do Repositório
 
 - **[Estrutura Sequencial](./Estrutura%20Sequencial/exercicios.md)**: Exercícios básicos sobre sequência de comandos em Python.
-- **[Estrutura De Decisão](./Estrutura%20De%20Decisao/exercicios.md)**: Exercícios sobre estruturas de decisão em Python.
+- **[Estrutura De Decisão](./Estrutura%20De%20Decis%C3%A3o/exercicios.md)**: Exercícios sobre estrutura de decisão em Python.
 
 ## 🚀 Como usar este repositório
 
@@ -26,5 +26,3 @@ Além dos exercícios, recomendo os seguintes recursos para ajudar no seu aprend
 ## 📜 Licença
 
 Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
