@@ -1,10 +1,14 @@
-notas = list(range(0, 11))
-
 while True:
-    nota = float(input("Digite uma nota entre 0 e 10: "))
+
+    nota=float(input('Digite uma nota: '))
     
-    if nota not in notas:
-        print("Nota inválida. Digite um valor entre 0 e 10.")
+    if nota in range(0, 11):
+     print('Nota registrada')
+     break
+    
     else:
-        break
-print('Nota registrada')
+     print('Digite uma nota válida!!!')
+
+
+   
+ 
