@@ -5,7 +5,7 @@ Aqui estão os exercícios para praticar estruturas de decisão em Python. Cliqu
 ## Exercícios
 
 1. **Faça um Programa que peça dois números e imprima o maior deles.**  
-   [Código](ano_bi.py)
+   [Código](maior_numero.py)
 
 2. **Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo.**  
    [Código](positivo_negativo.py)
@@ -37,7 +37,7 @@ Aqui estão os exercícios para praticar estruturas de decisão em Python. Cliqu
 10. **Faça um Programa que pergunte em que turno você estuda. Peça para digitar M-matutino ou V-Vespertino ou N- Noturno. Imprima a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor Inválido!", conforme o caso.**  
     [Código](periodo_do_dia.py)
 
-11. **As Organizações Tabajara resolveram dar um aumento de salário aos seus colaboradores e lhe contraram para desenvolver o programa que calculará os reajustes. Faça um programa que recebe o salário de um colaborador e o reajuste segundo o seguinte critério, baseado no salário atual:**
+11. **As Organizações Tabajara resolveram dar um aumento de salário aos seus colaboradores e lhe contrataram para desenvolver o programa que calculará os reajustes. Faça um programa que recebe o salário de um colaborador e o reajuste segundo o seguinte critério, baseado no salário atual:**
     - salários até R$ 280,00 (incluindo) : aumento de 20%
     - salários entre R$ 280,00 e R$ 700,00 : aumento de 15%
     - salários entre R$ 700,00 e R$ 1500,00 : aumento de 10%
@@ -96,7 +96,7 @@ Aqui estão os exercícios para praticar estruturas de decisão em Python. Cliqu
     Testar com: 326, 300, 100, 320, 310, 305, 301, 101, 311, 111, 25, 20, 10, 21, 11, 1, 7 e 16.  
     [Código](unidades_dezenas.py)
 
-20. **Faça um Programa para leitura de três notas parciais de um aluno. O programa deve calcular a média alcançada por aluno e presentar:**
+20. **Faça um Programa para leitura de três notas parciais de um aluno. O programa deve calcular a média alcançada por aluno e apresentar:**
     - A mensagem "Aprovado", se a média for maior ou igual a 7, com a respectiva média alcançada;
     - A mensagem "Reprovado", se a média for menor do que 7, com a respectiva média alcançada;
     - A mensagem "Aprovado com Distinção", se a média for igual a 10.  
