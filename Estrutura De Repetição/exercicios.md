@@ -13,7 +13,7 @@ Aqui estão os exercícios para praticar estruturas de repetição em Python. Cl
 3. **Validação de Informações**: Faça um programa que leia e valide as seguintes informações: Nome (>3 caracteres), Idade (0-150), Salário (>0), Sexo ('f' ou 'm'), Estado Civil ('s', 'c', 'v', 'd').  
    [Código](./validacao_informacoes.py)
 
-4. **Crescimento Populacional**: Calcule e escreva o número de anos necessários para que a população do país A ultrapasse ou iguale a população do país B.  
+4. **Crescimento Populacional**: Supondo que a população de um país A seja da ordem de 80000 habitantes com uma taxa anual de crescimento de 3% e que a população de B seja 200000 habitantes com uma taxa de crescimento de 1.5%. Faça um programa que calcule e escreva o número de anos necessários para que a população do país A ultrapasse ou iguale a população do país B, mantidas as taxas de crescimento.  
    [Código](./crescimento_populacional.py)
 
 5. **Crescimento Populacional com Entrada do Usuário**: Altere o programa anterior permitindo ao usuário informar as populações e as taxas de crescimento iniciais.  
