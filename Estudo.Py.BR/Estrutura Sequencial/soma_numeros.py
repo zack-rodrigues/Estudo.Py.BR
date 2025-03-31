@@ -1,0 +1,5 @@
+print('type two numbers to see they "SUM" product')
+num1=float(input('Type number one: '))
+num2=float(input('Type number two: '))
+total=(num1+num2) 
+print('Your sum is: ', total)
