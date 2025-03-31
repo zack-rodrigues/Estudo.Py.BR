@@ -16,10 +16,10 @@ Aqui estão os exercícios para praticar estruturas de repetição em Python. Cl
 4. **Crescimento Populacional**: Supondo que a população de um país A seja da ordem de 80000 habitantes com uma taxa anual de crescimento de 3% e que a população de B seja 200000 habitantes com uma taxa de crescimento de 1.5%. Faça um programa que calcule e escreva o número de anos necessários para que a população do país A ultrapasse ou iguale a população do país B, mantidas as taxas de crescimento.  
    [Código](./crescimento_populacional.py)
 
-5. **Crescimento Populacional com Entrada do Usuário**: Altere o programa anterior permitindo ao usuário informar as populações e as taxas de crescimento iniciais.  
+5. **Crescimento Populacional com Entrada do Usuário**: Altere o programa anterior permitindo ao usuário informar as populações e as taxas de crescimento iniciais, validando as entradas.  
    [Código](./crescimento_populacional_usuario.py)
 
-6. **Números de 1 a 20**: Imprima os números de 1 a 20, um abaixo do outro e depois um ao lado do outro.  
+6. **Números de 1 a 20**: Faça um programa que imprima na tela os números de 1 a 20, um abaixo do outro. Depois modifique o programa para que ele mostre os números um ao lado do outro.  
    [Código](./numeros_1_a_20.py)
 
 7. **Maior de 5 Números**: Leia 5 números e informe o maior número.  
