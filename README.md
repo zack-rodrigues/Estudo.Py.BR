@@ -13,7 +13,7 @@ Cada diretório neste repositório contém um conjunto de exercícios relacionad
 
 ## 📝 Contribuindo
 
-Se você tiver alguma sugestão de exercício ou encontrar algum problema nos exercícios existentes, sinta-se à vontade para abrir uma issue ou enviar um pull request!
+Se você tiver alguma sugestão de exercício, queria adicionar a resolução do mesmo, ou encontrar algum problema nos exercícios existentes, sinta-se à vontade para abrir uma issue ou enviar um pull request!
 
 ## 📚 Recursos Adicionais
 
