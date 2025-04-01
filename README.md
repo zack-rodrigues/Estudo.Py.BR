@@ -3,10 +3,32 @@
 Bem-vindo ao repositório de exercícios em Python! Aqui você encontrará uma coleção de exercícios para ajudar no seu aprendizado e prática de programação em Python.
 
 ## 📁 Estrutura do Repositório
+----------------
+|Dificuldade ⭐|
+----------------
+- **[Estrutura Sequencial](./Estrutura%20Sequencial/exercicios.md)**
 
-- **[Estrutura Sequencial](./Estrutura%20Sequencial/exercicios.md)**: Exercícios básicos sobre sequência de comandos em Python.
-- **[Estrutura De Decisão](./Estrutura%20De%20Decis%C3%A3o/exercicios.md)**: Exercícios sobre estrutura de decisão em Python.
-- **[Estrutura De Repetição](./Estrutura%20De%20Repeti%C3%A7%C3%A3o/exercicios.md)**: Exercícios sobre estrutura de decisão em Python.
+  Clique para ver exercícios básicos sobre sequência de comandos. 
+----------------
+|Dificuldade ⭐|
+----------------
+- **[Estrutura De Decisão](./Estrutura%20De%20Decis%C3%A3o/exercicios.md)**:
+ 
+   Clique para ver exercícios sobre estrutura de decisão.
+----------------
+|Dificuldade ⭐⭐|
+----------------
+- **[Estrutura De Repetição](./Estrutura%20De%20Repeti%C3%A7%C3%A3o/exercicios.md)**
+
+  Clique para ver exercícios sobre estrutura de Repetição.
+----------------
+|Dificuldade ⭐|
+----------------
+- **[Estrutura De Listas](./Estrutura%20De%20Listas/exercicios.md)**
+  
+  Clique para ver exercícios sobre listas no geral.
+
+
 ## 🚀 Como usar este repositório
 
 Cada diretório neste repositório contém um conjunto de exercícios relacionados a um tópico específico de Python. Sinta-se à vontade para explorar e escolher os exercícios que deseja resolver.
