@@ -12,12 +12,12 @@ Bem-vindo ao repositório de exercícios em Python! Aqui você encontrará uma c
 ----------------
 |Dificuldade ⭐|
 ----------------
-- **[Estrutura De Decisão](./Estrutura%20De%20Decis%C3%A3o/exercicios.md)**:
+- **[Estrutura De Decisão](./Estrutura%20De%20Decis%C3%A3o/exercicios.md)**
  
    Clique para ver exercícios sobre estrutura de decisão.
-----------------
+------------------
 |Dificuldade ⭐⭐|
-----------------
+------------------
 - **[Estrutura De Repetição](./Estrutura%20De%20Repeti%C3%A7%C3%A3o/exercicios.md)**
 
   Clique para ver exercícios sobre estrutura de Repetição.
