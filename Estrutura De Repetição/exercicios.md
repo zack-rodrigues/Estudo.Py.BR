@@ -277,11 +277,11 @@ Faça um programa que leia um nome de usuário e a sua senha e não permita que 
 [Código](./validacao_login_senha.py)
 
 
-50. **Tabela de Números e Suas Potências**  
+### 50. **Tabela de Números e Suas Potências**  
 Faça um programa que mostre uma tabela com os números de 1 a N, junto com o quadrado e o cubo de cada um. O valor de N deve ser fornecido pelo usuário.  
 [Código](./tabela_quadrado_cubo.py)
 
-51. **Leitura de Valores com Validação de Faixa**  
+### 51. **Leitura de Valores com Validação de Faixa**  
 Faça um programa que leia vários números, solicitando ao usuário se deseja continuar após cada entrada. Ao final, mostre o total de números lidos, a soma e a média dos números.  
 [Código](./leitura_valores_com_validacao.py)
 
