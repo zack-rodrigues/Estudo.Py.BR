@@ -11,7 +11,9 @@ Bem-vindo ao seu playground de Python! Aqui você encontra exercícios organizad
 | ⭐️         | Estrutura Sequencial    | Fundamentos básicos de programação sequencial                             | [Exercícios](./Estrutura%20Sequencial/exercicios.md)                 |
 | ⭐️         | Estrutura de Decisão    | Condicionais `if/else` e tomada de decisões                               | [Exercícios](./Estrutura%20De%20Decis%C3%A3o/exercicios.md)          |
 | ⭐️⭐️       | Estrutura de Repetição  | Loops `for/while` e controle de fluxo                                     | [Exercícios](./Estrutura%20De%20Repeti%C3%A7%C3%A3o/exercicios.md)   |
-| ⭐️⭐️⭐️     | Estrutura de Listas     | Manipulação de listas e operações com coleções                            | [Exercícios](./Estrutura%20De%20Listas/exercicios.md)                |
+| ⭐️⭐️       | Estrutura de Listas     | Manipulação de listas e operações com coleções                            | [Exercícios](./Estrutura%20De%20Listas/exercicios.md)                |
+| ⭐️⭐️⭐️     | Estrutura de Funções    | Criação e uso de funções, parâmetros, retorno e organização de código     | [Exercícios](./Estrutura%20De%20Fun%C3%A7%C3%B5es/exercicios.md)     |
+
 
 ---
 
