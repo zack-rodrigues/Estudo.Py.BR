@@ -105,13 +105,13 @@ Aqui estão os exercícios para praticar estruturas de decisão em Python. Cliqu
 21. **Faça um Programa para um caixa eletrônico. O programa deverá perguntar ao usuário a valor do saque e depois informar quantas notas de cada valor serão fornecidas. As notas disponíveis serão as de 1, 5, 10, 50 e 100 reais. O valor mínimo é de 10 reais e o máximo de 600 reais. O programa não deve se preocupar com a quantidade de notas existentes na máquina.**
     Exemplo 1: Para sacar a quantia de 256 reais, o programa fornece duas notas de 100, uma nota de 50, uma nota de 5 e uma nota de 1;  
     Exemplo 2: Para sacar a quantia de 399 reais, o programa fornece três notas de 100, uma nota de 50, quatro notas de 10, uma nota de 5 e quatro notas de 1.  
-    [Código](caixa_eletronico.py)
+    [Código](caixa.py)
 
 22. **Faça um Programa que peça um número inteiro e determine se ele é par ou ímpar. Dica: utilize o operador módulo (resto da divisão).**  
     [Código](par_impar.py)
 
 23. **Faça um Programa que peça um número e informe se o número é inteiro ou decimal. Dica: utilize uma função de arredondamento.**  
-    [Código](inteiro_decimal.py)
+    [Código](decimal.py)
 
 24. **Faça um Programa que leia 2 números e em seguida pergunte ao usuário qual operação ele deseja realizar. O resultado da operação deve ser acompanhado de uma frase que diga se o número é:**
     - par ou ímpar;
@@ -126,7 +126,7 @@ Aqui estão os exercícios para praticar estruturas de decisão em Python. Cliqu
     - "Devia para a vítima?"
     - "Já trabalhou com a vítima?"  
     O programa deve no final emitir uma classificação sobre a participação da pessoa no crime. Se a pessoa responder positivamente a 2 questões ela deve ser classificada como "Suspeita", entre 3 e 4 como "Cúmplice" e 5 como "Assassino". Caso contrário, ele será classificado como "Inocente".  
-    [Código](classificacao_crime.py)
+    [Código](crime.py)
 
 26. **Um posto está vendendo combustíveis com a seguinte tabela de descontos:**
     - Álcool:
