@@ -1,15 +1,18 @@
-title: Exercícios em Python
-description: Trilha de aprendizado com exercícios organizados por tópicos e dificuldade.
-theme: minima
-markdown: kramdown
+sass:
+  style: compressed
 
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
 
-minima:
-  skin: auto
+  - scope:
+      path: "assets/css"
+    values:
+      layout: null
 
-# Isso aponta pro seu CSS customizado
+# Inclui o CSS personalizado
 include:
-  - assets/css/style.scss
+  - assets/css/style.css

@@ -1,0 +1,17 @@
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+a {
+  color: #90caf9;
+}
+
+table {
+  color: #e0e0e0;
+}
+
+pre, code {
+  background-color: #1e1e1e;
+  color: #f8f8f2;
+}
