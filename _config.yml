@@ -1,3 +1,6 @@
+include:
+  - assets/css/style.css
+
 sass:
   style: compressed
 
@@ -12,7 +15,3 @@ defaults:
       path: "assets/css"
     values:
       layout: null
-
-# Inclui o CSS personalizado
-include:
-  - assets/css/style.css
