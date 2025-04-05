@@ -1,154 +1,271 @@
-# Exercícios de Estrutura de Decisão
-
-Aqui estão os exercícios para praticar estruturas de decisão em Python. Clique nos links para acessar os códigos correspondentes.
-
-## Exercícios
-
-1. **Faça um Programa que peça dois números e imprima o maior deles.**  
-   [Código](maior_numero.py)
-
-2. **Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo.**  
-   [Código](positivo_negativo.py)
-
-3. **Faça um Programa que verifique se uma letra digitada é "F" ou "M". Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido.**  
-   [Código](masculino_feminino.py)
-
-4. **Faça um Programa que verifique se uma letra digitada é vogal ou consoante.**  
-   [Código](vogal_consoante.py)
-
-5. **Faça um programa para a leitura de duas notas parciais de um aluno. O programa deve calcular a média alcançada por aluno e apresentar:**
-   - A mensagem "Aprovado", se a média alcançada for maior ou igual a sete;
-   - A mensagem "Reprovado", se a média for menor do que sete;
-   - A mensagem "Aprovado com Distinção", se a média for igual a dez.  
-   [Código](media_aluno.py)
-
-6. **Faça um Programa que leia três números e mostre o maior deles.**  
-   [Código](maior_numero.py)
-
-7. **Faça um Programa que leia três números e mostre o maior e o menor deles.**  
-   [Código](maior_e_menor.py)
-
-8. **Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar, sabendo que a decisão é sempre pelo mais barato.**  
-   [Código](produto_barato.py)
-
-9. **Faça um Programa que leia três números e mostre-os em ordem decrescente.**  
-   [Código](numero_decrescente.py)
-
-10. **Faça um Programa que pergunte em que turno você estuda. Peça para digitar M-matutino ou V-Vespertino ou N- Noturno. Imprima a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor Inválido!", conforme o caso.**  
-    [Código](periodo_do_dia.py)
-
-11. **As Organizações Tabajara resolveram dar um aumento de salário aos seus colaboradores e lhe contrataram para desenvolver o programa que calculará os reajustes. Faça um programa que recebe o salário de um colaborador e o reajuste segundo o seguinte critério, baseado no salário atual:**
-    - salários até R$ 280,00 (incluindo) : aumento de 20%
-    - salários entre R$ 280,00 e R$ 700,00 : aumento de 15%
-    - salários entre R$ 700,00 e R$ 1500,00 : aumento de 10%
-    - salários de R$ 1500,00 em diante : aumento de 5%
-    Após o aumento ser realizado, informe na tela:
-    - o salário antes do reajuste;
-    - percentual de aumento aplicado;
-    - valor do aumento;
-    - novo salário, após o aumento.  
-    [Código](novo_salario.py)
-
-12. **Faça um programa para o cálculo de uma folha de pagamento, sabendo que os descontos são do Imposto de Renda, que depende do salário bruto (conforme tabela abaixo) e 3% para o Sindicato e que o FGTS corresponde a 11% do Salário Bruto, mas não é descontado (é a empresa que deposita). O Salário Líquido corresponde ao Salário Bruto menos os descontos. O programa deverá pedir ao usuário o valor da sua hora e a quantidade de horas trabalhadas no mês. Desconto do IR:**
-    - Salário Bruto até 900 (inclusive) - isento
-    - Salário Bruto até 1500 (inclusive) - desconto de 5%
-    - Salário Bruto até 2500 (inclusive) - desconto de 10%
-    - Salário Bruto acima de 2500 - desconto de 20%
-    Imprima na tela as informações, dispostas conforme o exemplo abaixo.  
-    [Código](descontos_pagamento.py)
-
-13. **Faça um Programa que leia um número e exiba o dia correspondente da semana. (1-Domingo, 2- Segunda, etc.), se digitar outro valor deve aparecer valor inválido.**  
-    [Código](dia_semana.py)
-
-14. **Faça um programa que lê as duas notas parciais obtidas por um aluno numa disciplina ao longo de um semestre, e calcule a sua média. A atribuição de conceitos obedece à tabela abaixo:**
-    - Média de Aproveitamento  Conceito
-    - Entre 9.0 e 10.0        A
-    - Entre 7.5 e 9.0         B
-    - Entre 6.0 e 7.5         C
-    - Entre 4.0 e 6.0         D
-    - Entre 4.0 e zero        E
-    O algoritmo deve mostrar na tela as notas, a média, o conceito correspondente e a mensagem “APROVADO” se o conceito for A, B ou C ou “REPROVADO” se o conceito for D ou E.  
-    [Código](nota_aproveitamento.py)
-
-15. **Faça um Programa que peça os 3 lados de um triângulo. O programa deverá informar se os valores podem ser um triângulo. Indique, caso os lados formem um triângulo, se o mesmo é: equilátero, isósceles ou escaleno. Dicas:**
-    - Três lados formam um triângulo quando a soma de quaisquer dois lados for maior que o terceiro;
-    - Triângulo Equilátero: três lados iguais;
-    - Triângulo Isósceles: quaisquer dois lados iguais;
-    - Triângulo Escaleno: três lados diferentes.  
-    [Código](triangulos.py)
-
-16. **Faça um programa que calcule as raízes de uma equação do segundo grau, na forma ax² + bx + c. O programa deverá pedir os valores de a, b e c e fazer as consistências, informando ao usuário nas seguintes situações:**
-    - Se o usuário informar o valor de A igual a zero, a equação não é do segundo grau e o programa não deve fazer pedir os demais valores, sendo encerrado;
-    - Se o delta calculado for negativo, a equação não possui raízes reais. Informe ao usuário e encerre o programa;
-    - Se o delta calculado for igual a zero a equação possui apenas uma raiz real; informe-a ao usuário;
-    - Se o delta for positivo, a equação possui duas raízes reais; informe-as ao usuário.  
-    [Código](segundo_grau.py)
-
-17. **Faça um Programa que peça um número correspondente a um determinado ano e em seguida informe se este ano é ou não bissexto.**  
-    [Código](ano_bi.py)
-
-18. **Faça um Programa que peça uma data no formato dd/mm/aaaa e determine se a mesma é uma data válida.**  
-    [Código](dia_mes_ano.py)
-
-19. **Faça um Programa que leia um número inteiro menor que 1000 e imprima a quantidade de centenas, dezenas e unidades do mesmo. Observando os termos no plural a colocação do "e", da vírgula entre outros. Exemplo:**
-    - 326 = 3 centenas, 2 dezenas e 6 unidades
-    - 12 = 1 dezena e 2 unidades
-    Testar com: 326, 300, 100, 320, 310, 305, 301, 101, 311, 111, 25, 20, 10, 21, 11, 1, 7 e 16.  
-    [Código](unidades_dezenas.py)
-
-20. **Faça um Programa para leitura de três notas parciais de um aluno. O programa deve calcular a média alcançada por aluno e apresentar:**
-    - A mensagem "Aprovado", se a média for maior ou igual a 7, com a respectiva média alcançada;
-    - A mensagem "Reprovado", se a média for menor do que 7, com a respectiva média alcançada;
-    - A mensagem "Aprovado com Distinção", se a média for igual a 10.  
-    [Código](media_aluno.py)
-
-21. **Faça um Programa para um caixa eletrônico. O programa deverá perguntar ao usuário a valor do saque e depois informar quantas notas de cada valor serão fornecidas. As notas disponíveis serão as de 1, 5, 10, 50 e 100 reais. O valor mínimo é de 10 reais e o máximo de 600 reais. O programa não deve se preocupar com a quantidade de notas existentes na máquina.**
-    Exemplo 1: Para sacar a quantia de 256 reais, o programa fornece duas notas de 100, uma nota de 50, uma nota de 5 e uma nota de 1;  
-    Exemplo 2: Para sacar a quantia de 399 reais, o programa fornece três notas de 100, uma nota de 50, quatro notas de 10, uma nota de 5 e quatro notas de 1.  
-    [Código](caixa.py)
-
-22. **Faça um Programa que peça um número inteiro e determine se ele é par ou ímpar. Dica: utilize o operador módulo (resto da divisão).**  
-    [Código](par_impar.py)
-
-23. **Faça um Programa que peça um número e informe se o número é inteiro ou decimal. Dica: utilize uma função de arredondamento.**  
-    [Código](decimal.py)
-
-24. **Faça um Programa que leia 2 números e em seguida pergunte ao usuário qual operação ele deseja realizar. O resultado da operação deve ser acompanhado de uma frase que diga se o número é:**
-    - par ou ímpar;
-    - positivo ou negativo;
-    - inteiro ou decimal.  
-    [Código](operacao_usuario.py)
-
-25. **Faça um programa que faça 5 perguntas para uma pessoa sobre um crime. As perguntas são:**
-    - "Telefonou para a vítima?"
-    - "Esteve no local do crime?"
-    - "Mora perto da vítima?"
-    - "Devia para a vítima?"
-    - "Já trabalhou com a vítima?"  
-    O programa deve no final emitir uma classificação sobre a participação da pessoa no crime. Se a pessoa responder positivamente a 2 questões ela deve ser classificada como "Suspeita", entre 3 e 4 como "Cúmplice" e 5 como "Assassino". Caso contrário, ele será classificado como "Inocente".  
-    [Código](crime.py)
-
-26. **Um posto está vendendo combustíveis com a seguinte tabela de descontos:**
-    - Álcool:
-      - até 20 litros, desconto de 3% por litro
-      - acima de 20 litros, desconto de 5% por litro
-    - Gasolina:
-      - até 20 litros, desconto de 4% por litro
-      - acima de 20 litros, desconto de 6% por litro
-    Escreva um algoritmo que leia o número de litros vendidos, o tipo de combustível (codificado da seguinte forma: A-álcool, G-gasolina), calcule e imprima o valor a ser pago pelo cliente sabendo-se que o preço do litro da gasolina é R$ 2,50 o preço do litro do álcool é R$ 1,90.  
-    [Código](desconto_combustivel.py)
-
-27. **Uma fruteira está vendendo frutas com a seguinte tabela de preços:**
-    - Até 5 Kg           Acima de 5 Kg
-    - Morango         R$ 2,50 por Kg          R$ 2,20 por Kg
-    - Maçã            R$ 1,80 por Kg          R$ 1,50 por Kg
-    Se o cliente comprar mais de 8 Kg em frutas ou o valor total da compra ultrapassar R$ 25,00, receberá ainda um desconto de 10% sobre este total. Escreva um algoritmo para ler a quantidade (em Kg) de morangos e a quantidade (em Kg) de maçãs adquiridas e escreva o valor a ser pago pelo cliente.  
-    [Código](frutas.py)
-
-28. **O Hipermercado Tabajara está com uma promoção de carnes que é imperdível. Confira:**
-    - Até 5 Kg           Acima de 5 Kg
-    - File Duplo      R$ 4,90 por Kg          R$ 5,80 por Kg
-    - Alcatra         R$ 5,90 por Kg          R$ 6,80 por Kg
-    - Picanha         R$ 6,90 por Kg          R$ 7,80 por Kg
-    Para atender a todos os clientes, cada cliente poderá levar apenas um dos tipos de carne da promoção, porém não há limites para a quantidade de carne por cliente. Se a compra for feita no cartão Tabajara o cliente receberá ainda um desconto de 5% sobre o total da compra. Escreva um programa que peça o tipo e a quantidade de carne comprada pelo usuário e gere um cupom fiscal, contendo as informações da compra: tipo e quantidade de carne, preço total, tipo de pagamento, valor do desconto e valor a pagar.  
-    [Código](carnes.py)
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Estrutura de Decisão - Exercícios</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.0/github-markdown-dark.min.css">
+  <style>
+    body {
+      background-color: #0d1117;
+      color: #c9d1d9;
+      font-family: system-ui, sans-serif;
+      padding: 2rem;
+      display: flex;
+      justify-content: center;
+    }
+    .markdown-body {
+      max-width: 900px;
+    }
+    a {
+      color: #58a6ff;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 1rem 0;
+    }
+    th, td {
+      border: 1px solid #30363d;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #161b22;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <article class="markdown-body">
+    <h1>Lista de Exercícios de Estrutura de Decisão</h1>
+    <p>Aqui estão os exercícios para praticar estruturas de decisão em Python. Clique nos links para acessar os códigos correspondentes.</p>
+    
+    <h2>Exercícios</h2>
+    <ol>
+      <li>
+        <strong>Maior de dois números</strong>: Faça um Programa que peça dois números e imprima o maior deles.
+        <a href="maior_numero.py">Código</a>
+      </li>
+      
+      <li>
+        <strong>Positivo ou negativo</strong>: Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo.
+        <a href="positivo_negativo.py">Código</a>
+      </li>
+      
+      <li>
+        <strong>Masculino ou Feminino</strong>: Faça um Programa que verifique se uma letra digitada é "F" ou "M". Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido.
+        <a href="masculino_feminino.py">Código</a>
+      </li>
+      
+      <li>
+        <strong>Vogal ou consoante</strong>: Faça um Programa que verifique se uma letra digitada é vogal ou consoante.
+        <a href="vogal_consoante.py">Código</a>
+      </li>
+      
+      <li>
+        <strong>Média do aluno</strong>: Faça um programa para a leitura de duas notas parciais de um aluno. O programa deve calcular a média alcançada por aluno e apresentar:
+        <ul>
+          <li>A mensagem "Aprovado", se a média alcançada for maior ou igual a sete</li>
+          <li>A mensagem "Reprovado", se a média for menor do que sete</li>
+          <li>A mensagem "Aprovado com Distinção", se a média for igual a dez</li>
+        </ul>
+        <a href="media_aluno.py">Código</a>
+      </li>
+      
+      <li>
+        <strong>Maior de três números</strong>: Faça um Programa que leia três números e mostre o maior deles.
+        <a href="maior_numero.py">Código</a>
+      </li>
+      
+      <li>
+        <strong>Maior e menor de três</strong>: Faça um Programa que leia três números e mostre o maior e o menor deles.
+        <a href="maior_e_menor.py">Código</a>
+      </li>
+      
+      <li>
+        <strong>Produto mais barato</strong>: Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar, sabendo que a decisão é sempre pelo mais barato.
+        <a href="produto_barato.py">Código</a>
+      </li>
+      
+      <li>
+        <strong>Números em ordem decrescente</strong>: Faça um Programa que leia três números e mostre-os em ordem decrescente.
+        <a href="numero_decrescente.py">Código</a>
+      </li>
+      
+      <li>
+        <strong>Período do dia</strong>: Faça um Programa que pergunte em que turno você estuda. Peça para digitar M-matutino ou V-Vespertino ou N- Noturno. Imprima a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor Inválido!", conforme o caso.
+        <a href="periodo_do_dia.py">Código</a>
+      </li>
+      
+      <li>
+        <strong>Reajuste salarial</strong>: As Organizações Tabajara resolveram dar um aumento de salário aos seus colaboradores. Faça um programa que recebe o salário de um colaborador e o reajuste segundo o seguinte critério:
+        <table>
+          <tr>
+            <th>Faixa salarial</th>
+            <th>Aumento</th>
+          </tr>
+          <tr>
+            <td>Até R$ 280,00</td>
+            <td>20%</td>
+          </tr>
+          <tr>
+            <td>R$ 280,00 a R$ 700,00</td>
+            <td>15%</td>
+          </tr>
+          <tr>
+            <td>R$ 700,00 a R$ 1500,00</td>
+            <td>10%</td>
+          </tr>
+          <tr>
+            <td>Acima de R$ 1500,00</td>
+            <td>5%</td>
+          </tr>
+        </table>
+        O programa deve mostrar o salário antes do reajuste, percentual de aumento, valor do aumento e novo salário.
+        <a href="novo_salario.py">Código</a>
+      </li>
+      
+      <li>
+        <strong>Folha de pagamento</strong>: Faça um programa para o cálculo de uma folha de pagamento, com descontos de IR (conforme tabela) e 3% para o Sindicato. O FGTS corresponde a 11% do Salário Bruto.
+        <table>
+          <tr>
+            <th>Salário Bruto</th>
+            <th>Desconto IR</th>
+          </tr>
+          <tr>
+            <td>Até 900</td>
+            <td>Isento</td>
+          </tr>
+          <tr>
+            <td>Até 1500</td>
+            <td>5%</td>
+          </tr>
+          <tr>
+            <td>Até 2500</td>
+            <td>10%</td>
+          </tr>
+          <tr>
+            <td>Acima de 2500</td>
+            <td>20%</td>
+          </tr>
+        </table>
+        <a href="descontos_pagamento.py">Código</a>
+      </li>
+      
+      <li>
+        <strong>Dia da semana</strong>: Faça um Programa que leia um número e exiba o dia correspondente da semana. (1-Domingo, 2- Segunda, etc.), se digitar outro valor deve aparecer valor inválido.
+        <a href="dia_semana.py">Código</a>
+      </li>
+      
+      <li>
+        <strong>Conceito do aluno</strong>: Faça um programa que lê as duas notas parciais de um aluno e calcule a média, atribuindo conceitos conforme tabela:
+        <table>
+          <tr>
+            <th>Média</th>
+            <th>Conceito</th>
+            <th>Status</th>
+          </tr>
+          <tr>
+            <td>9.0 a 10.0</td>
+            <td>A</td>
+            <td>APROVADO</td>
+          </tr>
+          <tr>
+            <td>7.5 a 9.0</td>
+            <td>B</td>
+            <td>APROVADO</td>
+          </tr>
+          <tr>
+            <td>6.0 a 7.5</td>
+            <td>C</td>
+            <td>APROVADO</td>
+          </tr>
+          <tr>
+            <td>4.0 a 6.0</td>
+            <td>D</td>
+            <td>REPROVADO</td>
+          </tr>
+          <tr>
+            <td>0 a 4.0</td>
+            <td>E</td>
+            <td>REPROVADO</td>
+          </tr>
+        </table>
+        <a href="nota_aproveitamento.py">Código</a>
+      </li>
+      
+      <li>
+        <strong>Tipos de triângulo</strong>: Faça um Programa que peça os 3 lados de um triângulo. O programa deverá informar se os valores podem ser um triângulo e, se for, se é equilátero, isósceles ou escaleno.
+        <a href="triangulos.py">Código</a>
+      </li>
+      
+      <li>
+        <strong>Equação do segundo grau</strong>: Faça um programa que calcule as raízes de uma equação do segundo grau, na forma ax² + bx + c, fazendo as validações necessárias.
+        <a href="segundo_grau.py">Código</a>
+      </li>
+      
+      <li>
+        <strong>Ano bissexto</strong>: Faça um Programa que peça um número correspondente a um determinado ano e informe se este ano é ou não bissexto.
+        <a href="ano_bi.py">Código</a>
+      </li>
+      
+      <li>
+        <strong>Data válida</strong>: Faça um Programa que peça uma data no formato dd/mm/aaaa e determine se a mesma é uma data válida.
+        <a href="dia_mes_ano.py">Código</a>
+      </li>
+      
+      <li>
+        <strong>Decomposição numérica</strong>: Faça um Programa que leia um número inteiro menor que 1000 e imprima a quantidade de centenas, dezenas e unidades.
+        <a href="unidades_dezenas.py">Código</a>
+      </li>
+      
+      <li>
+        <strong>Média de três notas</strong>: Faça um Programa para leitura de três notas parciais de um aluno. O programa deve calcular a média e apresentar o status conforme a média.
+        <a href="media_aluno.py">Código</a>
+      </li>
+      
+      <li>
+        <strong>Caixa eletrônico</strong>: Faça um Programa para um caixa eletrônico que informe quantas notas de cada valor serão fornecidas para um saque (notas de 1, 5, 10, 50 e 100 reais).
+        <a href="caixa.py">Código</a>
+      </li>
+      
+      <li>
+        <strong>Par ou ímpar</strong>: Faça um Programa que peça um número inteiro e determine se ele é par ou ímpar.
+        <a href="par_impar.py">Código</a>
+      </li>
+      
+      <li>
+        <strong>Inteiro ou decimal</strong>: Faça um Programa que peça um número e informe se o número é inteiro ou decimal.
+        <a href="decimal.py">Código</a>
+      </li>
+      
+      <li>
+        <strong>Operações com números</strong>: Faça um Programa que leia 2 números, pergunte qual operação deseja realizar e informe características do resultado.
+        <a href="operacao_usuario.py">Código</a>
+      </li>
+      
+      <li>
+        <strong>Questionário criminal</strong>: Faça um programa que faça 5 perguntas sobre um crime e classifique a participação da pessoa no crime.
+        <a href="crime.py">Código</a>
+      </li>
+      
+      <li>
+        <strong>Desconto em combustível</strong>: Um posto está vendendo combustíveis com descontos diferenciados para álcool e gasolina conforme a quantidade.
+        <a href="desconto_combustivel.py">Código</a>
+      </li>
+      
+      <li>
+        <strong>Fruteira</strong>: Uma fruteira está vendendo frutas com tabela de preços diferenciada e desconto adicional para compras maiores.
+        <a href="frutas.py">Código</a>
+      </li>
+      
+      <li>
+        <strong>Promoção de carnes</strong>: O Hipermercado Tabajara está com uma promoção de carnes com preços diferenciados e desconto para pagamento no cartão.
+        <a href="carnes.py">Código</a>
+      </li>
+    </ol>
+  </article>
+</body>
+</html>
