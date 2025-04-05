@@ -1,9 +1,8 @@
 # Estudo.Py.BR
-🐍 **Exercícios em Python - Trilha de Aprendizado**
-
+## 🐍 **Exercícios em Python - Trilha de Aprendizado**
 Bem-vindo ao seu playground de Python! Aqui você encontra exercícios organizados por temas e dificuldade para evoluir suas habilidades.
 
----
+
 
 ## 🗂️ Estrutura do Repositório
 
@@ -21,7 +20,7 @@ Bem-vindo ao seu playground de Python! Aqui você encontra exercícios organizad
 | ⭐️⭐️⭐️      | Exercícios com Classes   | POO: classes, atributos e métodos                               | [Exercícios](./Estrutura%20De%20Classes/exercicios.md)              |
 | ⭐️⭐️⭐️⭐️    | Projetos Práticos        | Mini-projetos usando tudo que foi aprendido                     | [Exercícios](./Exercicios%20De%20Projetos/exercicios.md)            |
 
----
+
 
 ## 🚀 Comece Aqui!
 
