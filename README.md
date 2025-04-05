@@ -11,15 +11,15 @@ Bem-vindo ao seu playground de Python! Aqui você encontra exercícios organizad
 
 | Dificuldade | Tópico                   | Descrição                                                       | Link                                                                 |
 |-------------|--------------------------|------------------------------------------------------------------|----------------------------------------------------------------------|
-| ⭐️          | Estrutura Sequencial     | Fundamentos básicos de programação sequencial                   | [Exercícios](./Estrutura%20Sequencial/exercicios.html)              |
-| ⭐️          | Estrutura de Decisão     | Condicionais `if/else` e tomada de decisões                     | [Exercícios](./Estrutura%20De%20Decisão/exercicios.html)            |
-| ⭐️⭐️        | Estrutura de Repetição   | Loops `for/while` e controle de fluxo                           | [Exercícios](./Estrutura%20De%20Repetição/exercicios.html)          |
-| ⭐️⭐️        | Estrutura de Listas      | Manipulação de listas e operações com coleções                  | [Exercícios](./Estrutura%20De%20Listas/exercicios.html)             |
-| ⭐️⭐️⭐️      | Estrutura de Funções     | Funções, parâmetros, retorno, organização de código             | [Exercícios](./Estrutura%20De%20Funções/exercicios.html)            |
-| ⭐️⭐️        | Estrutura de Strings     | Manipulação de textos e formatação                              | [Exercícios](./Estrutura%20De%20Strings/exercicios.html)            |
-| ⭐️⭐️⭐️      | Exercícios com Arquivos  | Leitura, escrita e análise de arquivos                          | [Exercícios](./Estrutura%20De%20Arquivos/exercicios.html)           |
-| ⭐️⭐️⭐️      | Exercícios com Classes   | POO: classes, atributos e métodos                               | [Exercícios](./Estrutura%20De%20Classes/exercicios.html)            |
-| ⭐️⭐️⭐️⭐️    | Projetos Práticos        | Mini-projetos usando tudo que foi aprendido                     | [Exercícios](./Exercicios%20De%20Projetos/exercicios.html)          |
+| ⭐️          | Estrutura Sequencial     | Fundamentos básicos de programação sequencial                   | [Exercícios](./Estrutura%20Sequencial/exercicios.md)                |
+| ⭐️          | Estrutura de Decisão     | Condicionais `if/else` e tomada de decisões                     | [Exercícios](./Estrutura%20De%20Decisão/exercicios.md)              |
+| ⭐️⭐️        | Estrutura de Repetição   | Loops `for/while` e controle de fluxo                           | [Exercícios](./Estrutura%20De%20Repetição/exercicios.md)            |
+| ⭐️⭐️        | Estrutura de Listas      | Manipulação de listas e operações com coleções                  | [Exercícios](./Estrutura%20De%20Listas/exercicios.md)               |
+| ⭐️⭐️⭐️      | Estrutura de Funções     | Funções, parâmetros, retorno, organização de código             | [Exercícios](./Estrutura%20De%20Funções/exercicios.md)              |
+| ⭐️⭐️        | Estrutura de Strings     | Manipulação de textos e formatação                              | [Exercícios](./Estrutura%20De%20Strings/exercicios.md)              |
+| ⭐️⭐️⭐️      | Exercícios com Arquivos  | Leitura, escrita e análise de arquivos                          | [Exercícios](./Estrutura%20De%20Arquivos/exercicios.md)             |
+| ⭐️⭐️⭐️      | Exercícios com Classes   | POO: classes, atributos e métodos                               | [Exercícios](./Estrutura%20De%20Classes/exercicios.md)              |
+| ⭐️⭐️⭐️⭐️    | Projetos Práticos        | Mini-projetos usando tudo que foi aprendido                     | [Exercícios](./Exercicios%20De%20Projetos/exercicios.md)            |
 
 ---
 
