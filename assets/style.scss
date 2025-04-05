@@ -1,0 +1,21 @@
+// Ativa o modo escuro com base no sistema do usuário
+@media (prefers-color-scheme: dark) {
+    body {
+      background-color: #121212;
+      color: #e0e0e0;
+    }
+  
+    a {
+      color: #80cbc4;
+    }
+  
+    header, footer {
+      background-color: #1e1e1e;
+      color: #e0e0e0;
+    }
+  
+    code {
+      background-color: #2e2e2e;
+    }
+  }
+  
