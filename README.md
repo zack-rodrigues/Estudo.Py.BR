@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="/assets/css/style.scss">
+
 # 🐍 Exercícios em Python - Trilha de Aprendizado
 
 Bem-vindo ao seu playground de Python! Aqui você encontra exercícios organizados por temas e dificuldade para evoluir suas habilidades.
