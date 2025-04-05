@@ -1,0 +1,15 @@
+title: Exercícios em Python
+description: Trilha de aprendizado com exercícios organizados por tópicos e dificuldade.
+theme: minima
+markdown: kramdown
+show_downloads: false
+
+# GitHub Pages config
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+minima:
+  skin: dark  # Ativa modo escuro
+  social_links:
+    github: zack-rodrigues
