@@ -1,0 +1,27 @@
+:root {
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+  --link-color: #80cbc4;
+  --code-bg: #1e1e1e;
+  --code-text: #c3e88d;
+}
+
+body {
+  background-color: var(--bg-color) !important;
+  color: var(--text-color) !important;
+}
+
+a {
+  color: var(--link-color) !important;
+}
+
+pre, code {
+  background-color: var(--code-bg) !important;
+  color: var(--code-text) !important;
+}
+
+header, footer {
+  background-color: #1e1e1e !important;
+  color: var(--text-color) !important;
+}
+
