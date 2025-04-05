@@ -15,4 +15,5 @@ defaults:
       path: "assets/css"
     values:
       layout: null
-theme: jekyll-theme-dark-minimal
+theme: minima
+
