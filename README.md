@@ -13,6 +13,11 @@ Bem-vindo ao seu playground de Python! Aqui você encontra exercícios organizad
 | ⭐️⭐️       | Estrutura de Repetição  | Loops `for/while` e controle de fluxo                                     | [Exercícios](./Estrutura%20De%20Repeti%C3%A7%C3%A3o/exercicios.md)   |
 | ⭐️⭐️       | Estrutura de Listas     | Manipulação de listas e operações com coleções                            | [Exercícios](./Estrutura%20De%20Listas/exercicios.md)                |
 | ⭐️⭐️⭐️     | Estrutura de Funções    | Criação e uso de funções, parâmetros, retorno e organização de código     | [Exercícios](./Estrutura%20De%20Fun%C3%A7%C3%B5es/exercicios.md)     |
+| ⭐️⭐️       | Estrutura de Strings     | Manipulação de textos, verificação, formatação e operações com strings    | [Exercícios](./Estrutura%20De%20Strings/exercicios.md)               |
+| ⭐️⭐️⭐️     | Exercícios com Arquivos  | Leitura, escrita, manipulação e análise de arquivos em Python            | [Exercícios](./Estrutura%20De%20Arquivos/exercicios.md)                     |
+| ⭐️⭐️⭐️     | Exercícios com Classes   | Programação orientada a objetos: criação de classes, atributos e métodos | [Exercícios](./Estrutura%20De%20Classes/exercicios.md)                      |
+| ⭐️⭐️⭐️     | Projetos Práticos        | Mini-projetos aplicados usando lógica, arquivos, listas e funções        | [Exercícios](./Exercicios%20De%20Projetos/exercicios.md)              |
+
 
 
 ---
