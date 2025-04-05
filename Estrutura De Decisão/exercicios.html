@@ -19,21 +19,45 @@
     a {
       color: #58a6ff;
     }
+    li {
+      margin-bottom: 1.5rem;
+      line-height: 1.6;
+    }
+    li > p {
+      margin: 0.5rem 0;
+    }
+    li > ul, li > ol {
+      margin: 0.5rem 0 1rem;
+      padding-left: 1.5rem;
+    }
+    .code-link {
+      display: block;
+      margin-top: 0.75rem;
+      font-weight: 500;
+    }
+    h1 {
+      border-bottom: 1px solid #30363d;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    h2 {
+      margin: 1.5rem 0 1rem;
+      border-bottom: 1px solid #30363d;
+      padding-bottom: 0.3rem;
+    }
     table {
       border-collapse: collapse;
       width: 100%;
       margin: 1rem 0;
+      border: 1px solid #30363d;
     }
     th, td {
       border: 1px solid #30363d;
-      padding: 8px;
+      padding: 8px 12px;
       text-align: left;
     }
     th {
       background-color: #161b22;
-    }
-    ul {
-      padding-left: 1.5rem;
     }
   </style>
 </head>
@@ -43,64 +67,76 @@
     <p>Aqui estão os exercícios para praticar estruturas de decisão em Python. Clique nos links para acessar os códigos correspondentes.</p>
     
     <h2>Exercícios</h2>
+    
     <ol>
       <li>
-        <strong>Maior de dois números</strong>: Faça um Programa que peça dois números e imprima o maior deles.
-        <a href="maior_numero.py">Código</a>
+        <strong>Maior de dois números</strong>:
+        <p>Faça um Programa que peça dois números e imprima o maior deles.</p>
+        <a href="maior_numero.py" class="code-link">Código</a>
       </li>
       
       <li>
-        <strong>Positivo ou negativo</strong>: Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo.
-        <a href="positivo_negativo.py">Código</a>
+        <strong>Positivo ou negativo</strong>:
+        <p>Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo.</p>
+        <a href="positivo_negativo.py" class="code-link">Código</a>
       </li>
       
       <li>
-        <strong>Masculino ou Feminino</strong>: Faça um Programa que verifique se uma letra digitada é "F" ou "M". Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido.
-        <a href="masculino_feminino.py">Código</a>
+        <strong>Masculino ou Feminino</strong>:
+        <p>Faça um Programa que verifique se uma letra digitada é "F" ou "M". Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido.</p>
+        <a href="masculino_feminino.py" class="code-link">Código</a>
       </li>
       
       <li>
-        <strong>Vogal ou consoante</strong>: Faça um Programa que verifique se uma letra digitada é vogal ou consoante.
-        <a href="vogal_consoante.py">Código</a>
+        <strong>Vogal ou consoante</strong>:
+        <p>Faça um Programa que verifique se uma letra digitada é vogal ou consoante.</p>
+        <a href="vogal_consoante.py" class="code-link">Código</a>
       </li>
       
       <li>
-        <strong>Média do aluno</strong>: Faça um programa para a leitura de duas notas parciais de um aluno. O programa deve calcular a média alcançada por aluno e apresentar:
+        <strong>Média do aluno</strong>:
+        <p>Faça um programa para a leitura de duas notas parciais de um aluno. O programa deve calcular a média alcançada por aluno e apresentar:</p>
         <ul>
           <li>A mensagem "Aprovado", se a média alcançada for maior ou igual a sete</li>
           <li>A mensagem "Reprovado", se a média for menor do que sete</li>
           <li>A mensagem "Aprovado com Distinção", se a média for igual a dez</li>
         </ul>
-        <a href="media_aluno.py">Código</a>
+        <a href="media_aluno.py" class="code-link">Código</a>
       </li>
       
       <li>
-        <strong>Maior de três números</strong>: Faça um Programa que leia três números e mostre o maior deles.
-        <a href="maior_numero.py">Código</a>
+        <strong>Maior de três números</strong>:
+        <p>Faça um Programa que leia três números e mostre o maior deles.</p>
+        <a href="maior_numero.py" class="code-link">Código</a>
       </li>
       
       <li>
-        <strong>Maior e menor de três</strong>: Faça um Programa que leia três números e mostre o maior e o menor deles.
-        <a href="maior_e_menor.py">Código</a>
+        <strong>Maior e menor de três</strong>:
+        <p>Faça um Programa que leia três números e mostre o maior e o menor deles.</p>
+        <a href="maior_e_menor.py" class="code-link">Código</a>
       </li>
       
       <li>
-        <strong>Produto mais barato</strong>: Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar, sabendo que a decisão é sempre pelo mais barato.
-        <a href="produto_barato.py">Código</a>
+        <strong>Produto mais barato</strong>:
+        <p>Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar, sabendo que a decisão é sempre pelo mais barato.</p>
+        <a href="produto_barato.py" class="code-link">Código</a>
       </li>
       
       <li>
-        <strong>Números em ordem decrescente</strong>: Faça um Programa que leia três números e mostre-os em ordem decrescente.
-        <a href="numero_decrescente.py">Código</a>
+        <strong>Números em ordem decrescente</strong>:
+        <p>Faça um Programa que leia três números e mostre-os em ordem decrescente.</p>
+        <a href="numero_decrescente.py" class="code-link">Código</a>
       </li>
       
       <li>
-        <strong>Período do dia</strong>: Faça um Programa que pergunte em que turno você estuda. Peça para digitar M-matutino ou V-Vespertino ou N- Noturno. Imprima a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor Inválido!", conforme o caso.
-        <a href="periodo_do_dia.py">Código</a>
+        <strong>Período do dia</strong>:
+        <p>Faça um Programa que pergunte em que turno você estuda. Peça para digitar M-matutino ou V-Vespertino ou N- Noturno. Imprima a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor Inválido!", conforme o caso.</p>
+        <a href="periodo_do_dia.py" class="code-link">Código</a>
       </li>
       
       <li>
-        <strong>Reajuste salarial</strong>: As Organizações Tabajara resolveram dar um aumento de salário aos seus colaboradores. Faça um programa que recebe o salário de um colaborador e o reajuste segundo o seguinte critério:
+        <strong>Reajuste salarial</strong>:
+        <p>As Organizações Tabajara resolveram dar um aumento de salário aos seus colaboradores. Faça um programa que recebe o salário de um colaborador e o reajuste segundo o seguinte critério:</p>
         <table>
           <tr>
             <th>Faixa salarial</th>
@@ -123,12 +159,13 @@
             <td>5%</td>
           </tr>
         </table>
-        O programa deve mostrar o salário antes do reajuste, percentual de aumento, valor do aumento e novo salário.
-        <a href="novo_salario.py">Código</a>
+        <p>O programa deve mostrar o salário antes do reajuste, percentual de aumento, valor do aumento e novo salário.</p>
+        <a href="novo_salario.py" class="code-link">Código</a>
       </li>
       
       <li>
-        <strong>Folha de pagamento</strong>: Faça um programa para o cálculo de uma folha de pagamento, com descontos de IR (conforme tabela) e 3% para o Sindicato. O FGTS corresponde a 11% do Salário Bruto.
+        <strong>Folha de pagamento</strong>:
+        <p>Faça um programa para o cálculo de uma folha de pagamento, com descontos de IR (conforme tabela) e 3% para o Sindicato. O FGTS corresponde a 11% do Salário Bruto.</p>
         <table>
           <tr>
             <th>Salário Bruto</th>
@@ -151,16 +188,18 @@
             <td>20%</td>
           </tr>
         </table>
-        <a href="descontos_pagamento.py">Código</a>
+        <a href="descontos_pagamento.py" class="code-link">Código</a>
       </li>
       
       <li>
-        <strong>Dia da semana</strong>: Faça um Programa que leia um número e exiba o dia correspondente da semana. (1-Domingo, 2- Segunda, etc.), se digitar outro valor deve aparecer valor inválido.
-        <a href="dia_semana.py">Código</a>
+        <strong>Dia da semana</strong>:
+        <p>Faça um Programa que leia um número e exiba o dia correspondente da semana. (1-Domingo, 2- Segunda, etc.), se digitar outro valor deve aparecer valor inválido.</p>
+        <a href="dia_semana.py" class="code-link">Código</a>
       </li>
       
       <li>
-        <strong>Conceito do aluno</strong>: Faça um programa que lê as duas notas parciais de um aluno e calcule a média, atribuindo conceitos conforme tabela:
+        <strong>Conceito do aluno</strong>:
+        <p>Faça um programa que lê as duas notas parciais de um aluno e calcule a média, atribuindo conceitos conforme tabela:</p>
         <table>
           <tr>
             <th>Média</th>
@@ -193,77 +232,91 @@
             <td>REPROVADO</td>
           </tr>
         </table>
-        <a href="nota_aproveitamento.py">Código</a>
+        <a href="nota_aproveitamento.py" class="code-link">Código</a>
       </li>
       
       <li>
-        <strong>Tipos de triângulo</strong>: Faça um Programa que peça os 3 lados de um triângulo. O programa deverá informar se os valores podem ser um triângulo e, se for, se é equilátero, isósceles ou escaleno.
-        <a href="triangulos.py">Código</a>
+        <strong>Tipos de triângulo</strong>:
+        <p>Faça um Programa que peça os 3 lados de um triângulo. O programa deverá informar se os valores podem ser um triângulo e, se for, se é equilátero, isósceles ou escaleno.</p>
+        <a href="triangulos.py" class="code-link">Código</a>
       </li>
       
       <li>
-        <strong>Equação do segundo grau</strong>: Faça um programa que calcule as raízes de uma equação do segundo grau, na forma ax² + bx + c, fazendo as validações necessárias.
-        <a href="segundo_grau.py">Código</a>
+        <strong>Equação do segundo grau</strong>:
+        <p>Faça um programa que calcule as raízes de uma equação do segundo grau, na forma ax² + bx + c, fazendo as validações necessárias.</p>
+        <a href="segundo_grau.py" class="code-link">Código</a>
       </li>
       
       <li>
-        <strong>Ano bissexto</strong>: Faça um Programa que peça um número correspondente a um determinado ano e informe se este ano é ou não bissexto.
-        <a href="ano_bi.py">Código</a>
+        <strong>Ano bissexto</strong>:
+        <p>Faça um Programa que peça um número correspondente a um determinado ano e informe se este ano é ou não bissexto.</p>
+        <a href="ano_bi.py" class="code-link">Código</a>
       </li>
       
       <li>
-        <strong>Data válida</strong>: Faça um Programa que peça uma data no formato dd/mm/aaaa e determine se a mesma é uma data válida.
-        <a href="dia_mes_ano.py">Código</a>
+        <strong>Data válida</strong>:
+        <p>Faça um Programa que peça uma data no formato dd/mm/aaaa e determine se a mesma é uma data válida.</p>
+        <a href="dia_mes_ano.py" class="code-link">Código</a>
       </li>
       
       <li>
-        <strong>Decomposição numérica</strong>: Faça um Programa que leia um número inteiro menor que 1000 e imprima a quantidade de centenas, dezenas e unidades.
-        <a href="unidades_dezenas.py">Código</a>
+        <strong>Decomposição numérica</strong>:
+        <p>Faça um Programa que leia um número inteiro menor que 1000 e imprima a quantidade de centenas, dezenas e unidades.</p>
+        <a href="unidades_dezenas.py" class="code-link">Código</a>
       </li>
       
       <li>
-        <strong>Média de três notas</strong>: Faça um Programa para leitura de três notas parciais de um aluno. O programa deve calcular a média e apresentar o status conforme a média.
-        <a href="media_aluno.py">Código</a>
+        <strong>Média de três notas</strong>:
+        <p>Faça um Programa para leitura de três notas parciais de um aluno. O programa deve calcular a média e apresentar o status conforme a média.</p>
+        <a href="media_aluno.py" class="code-link">Código</a>
       </li>
       
       <li>
-        <strong>Caixa eletrônico</strong>: Faça um Programa para um caixa eletrônico que informe quantas notas de cada valor serão fornecidas para um saque (notas de 1, 5, 10, 50 e 100 reais).
-        <a href="caixa.py">Código</a>
+        <strong>Caixa eletrônico</strong>:
+        <p>Faça um Programa para um caixa eletrônico que informe quantas notas de cada valor serão fornecidas para um saque (notas de 1, 5, 10, 50 e 100 reais).</p>
+        <a href="caixa.py" class="code-link">Código</a>
       </li>
       
       <li>
-        <strong>Par ou ímpar</strong>: Faça um Programa que peça um número inteiro e determine se ele é par ou ímpar.
-        <a href="par_impar.py">Código</a>
+        <strong>Par ou ímpar</strong>:
+        <p>Faça um Programa que peça um número inteiro e determine se ele é par ou ímpar.</p>
+        <a href="par_impar.py" class="code-link">Código</a>
       </li>
       
       <li>
-        <strong>Inteiro ou decimal</strong>: Faça um Programa que peça um número e informe se o número é inteiro ou decimal.
-        <a href="decimal.py">Código</a>
+        <strong>Inteiro ou decimal</strong>:
+        <p>Faça um Programa que peça um número e informe se o número é inteiro ou decimal.</p>
+        <a href="decimal.py" class="code-link">Código</a>
       </li>
       
       <li>
-        <strong>Operações com números</strong>: Faça um Programa que leia 2 números, pergunte qual operação deseja realizar e informe características do resultado.
-        <a href="operacao_usuario.py">Código</a>
+        <strong>Operações com números</strong>:
+        <p>Faça um Programa que leia 2 números, pergunte qual operação deseja realizar e informe características do resultado.</p>
+        <a href="operacao_usuario.py" class="code-link">Código</a>
       </li>
       
       <li>
-        <strong>Questionário criminal</strong>: Faça um programa que faça 5 perguntas sobre um crime e classifique a participação da pessoa no crime.
-        <a href="crime.py">Código</a>
+        <strong>Questionário criminal</strong>:
+        <p>Faça um programa que faça 5 perguntas sobre um crime e classifique a participação da pessoa no crime.</p>
+        <a href="crime.py" class="code-link">Código</a>
       </li>
       
       <li>
-        <strong>Desconto em combustível</strong>: Um posto está vendendo combustíveis com descontos diferenciados para álcool e gasolina conforme a quantidade.
-        <a href="desconto_combustivel.py">Código</a>
+        <strong>Desconto em combustível</strong>:
+        <p>Um posto está vendendo combustíveis com descontos diferenciados para álcool e gasolina conforme a quantidade.</p>
+        <a href="desconto_combustivel.py" class="code-link">Código</a>
       </li>
       
       <li>
-        <strong>Fruteira</strong>: Uma fruteira está vendendo frutas com tabela de preços diferenciada e desconto adicional para compras maiores.
-        <a href="frutas.py">Código</a>
+        <strong>Fruteira</strong>:
+        <p>Uma fruteira está vendendo frutas com tabela de preços diferenciada e desconto adicional para compras maiores.</p>
+        <a href="frutas.py" class="code-link">Código</a>
       </li>
       
       <li>
-        <strong>Promoção de carnes</strong>: O Hipermercado Tabajara está com uma promoção de carnes com preços diferenciados e desconto para pagamento no cartão.
-        <a href="carnes.py">Código</a>
+        <strong>Promoção de carnes</strong>:
+        <p>O Hipermercado Tabajara está com uma promoção de carnes com preços diferenciados e desconto para pagamento no cartão.</p>
+        <a href="carnes.py" class="code-link">Código</a>
       </li>
     </ol>
   </article>

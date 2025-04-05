@@ -19,17 +19,44 @@
     a {
       color: #58a6ff;
     }
+    li {
+      margin-bottom: 1.5rem;
+    }
+    li > p {
+      margin: 0.5rem 0;
+    }
+    li > ul, li > ol {
+      margin: 0.5rem 0 1rem;
+    }
+    .code-link {
+      display: block;
+      margin-top: 0.5rem;
+    }
   </style>
 </head>
 <body>
    <article class="markdown-body">
       <h1>Lista de Exercícios de Estrutura de Repetição</h1>
       <p>Aqui estão os exercícios para praticar estruturas de repetição em Python. Clique nos links para acessar os códigos correspondentes.</p>
+      
       <h2>Exercícios</h2>
+      
       <ol>
-        <li><strong>Validação de Nota</strong>: Faça um programa que peça uma nota, entre zero e dez. Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o usuário informe um valor válido. <a href="./notas_zero_a_dez.py">Código</a></li>
-        <li><strong>Validação de Usuário e Senha</strong>: Faça um programa que leia um nome de usuário e a sua senha e não aceite a senha igual ao nome do usuário, mostrando uma mensagem de erro e voltando a pedir as informações. <a href="./usuario_senha.py">Código</a></li>
-        <li><strong>Validação Completa de Dados</strong>: Faça um programa que leia e valide as seguintes informações:
+        <li>
+          <strong>Validação de Nota</strong>: 
+          <p>Faça um programa que peça uma nota, entre zero e dez. Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o usuário informe um valor válido.</p>
+          <a href="./notas_zero_a_dez.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Validação de Usuário e Senha</strong>: 
+          <p>Faça um programa que leia um nome de usuário e a sua senha e não aceite a senha igual ao nome do usuário, mostrando uma mensagem de erro e voltando a pedir as informações.</p>
+          <a href="./usuario_senha.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Validação Completa de Dados</strong>: 
+          <p>Faça um programa que leia e valide as seguintes informações:</p>
           <ul>
             <li>Nome: maior que 3 caracteres</li>
             <li>Idade: entre 0 e 150</li>
@@ -37,85 +64,261 @@
             <li>Sexo: 'f' ou 'm'</li>
             <li>Estado Civil: 's', 'c', 'v' ou 'd'</li>
           </ul>
-          <a href="./validacao_informacoes.py">Código</a>
+          <a href="./validacao_informacoes.py" class="code-link">Código</a>
         </li>
-        <li><strong>Crescimento Populacional (Taxas Fixas)</strong>: Supondo que a população de um país A seja 80000 habitantes com taxa anual de 3% e a população de B seja 200000 com taxa de 1.5%. Calcule quantos anos são necessários para que A ultrapasse ou iguale B. <a href="./crescimento_populacional.py">Código</a></li>
-        <li><strong>Crescimento Populacional (Entrada do Usuário)</strong>: Altere o programa anterior permitindo ao usuário informar as populações e taxas de crescimento iniciais, validando as entradas. <a href="./crescimento_populacional_usuario.py">Código</a></li>
-        <li><strong>Impressão de Números</strong>: Faça um programa que imprima na tela:
+        
+        <li>
+          <strong>Crescimento Populacional (Taxas Fixas)</strong>: 
+          <p>Supondo que a população de um país A seja 80000 habitantes com taxa anual de 3% e a população de B seja 200000 com taxa de 1.5%. Calcule quantos anos são necessários para que A ultrapasse ou iguale B.</p>
+          <a href="./crescimento_populacional.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Crescimento Populacional (Entrada do Usuário)</strong>: 
+          <p>Altere o programa anterior permitindo ao usuário informar as populações e taxas de crescimento iniciais, validando as entradas.</p>
+          <a href="./crescimento_populacional_usuario.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Impressão de Números</strong>: 
+          <p>Faça um programa que imprima na tela:</p>
           <ul>
             <li>Os números de 1 a 20, um abaixo do outro</li>
             <li>Os mesmos números, um ao lado do outro</li>
           </ul>
-          <a href="./numeros_1_a_20.py">Código</a>
+          <a href="./numeros_1_a_20.py" class="code-link">Código</a>
         </li>
-        <li><strong>Maior de Cinco Números</strong>: Leia 5 números e informe o maior número. <a href="./maior_de_5_numeros.py">Código</a></li>
-        <li><strong>Cálculo de Média</strong>: Leia 5 números e informe a soma e a média. <a href="./soma_media_5_numeros.py">Código</a></li>
-        <li><strong>Números Ímpares</strong>: Imprima os números ímpares entre 1 e 50. <a href="./impares_1_a_50.py">Código</a></li>
-        <li><strong>Intervalo Numérico</strong>: Receba dois números inteiros e gere os números inteiros que estão no intervalo compreendido por eles. <a href="./intervalo_entre_numeros.py">Código</a></li>
-        <li><strong>Soma de Intervalo</strong>: Altere o programa anterior para mostrar a soma dos números no intervalo. <a href="./intervalo_com_soma.py">Código</a></li>
-        <li><strong>Gerador de Tabuada</strong>: Desenvolva um gerador de tabuada de qualquer número inteiro entre 1 e 10. <a href="./gerador_tabuada.py">Código</a></li>
-        <li><strong>Cálculo de Potência</strong>: Faça um programa que peça base e expoente e calcule a potência sem usar a função de potência da linguagem. <a href="./potencia_sem_funcao.py">Código</a></li>
-        <li><strong>Contador de Pares e Ímpares</strong>: Peça 10 números inteiros e mostre a quantidade de números pares e ímpares. <a href="./pares_impares.py">Código</a></li>
-        <li><strong>Sequência Fibonacci (N-ésimo Termo)</strong>: Gere a série de Fibonacci até o n-ésimo termo (sequência: 1,1,2,3,5,8...). <a href="./fibonacci_n_termo.py">Código</a></li>
-        <li><strong>Fibonacci até Limite</strong>: Gere a série de Fibonacci até que o valor seja maior que 500 (sequência: 0,1,1,2,3,5...). <a href="./fibonacci_ate_500.py">Código</a></li>
-        <li><strong>Cálculo Fatorial</strong>: Calcule o fatorial de um número inteiro fornecido (ex: 5! = 5.4.3.2.1 = 120). <a href="./fatorial.py">Código</a></li>
-        <li><strong>Estatísticas de Números</strong>: Dado um conjunto de N números, determine o menor valor, o maior valor e a soma dos valores. <a href="./maior_menor_soma.py">Código</a></li>
-        <li><strong>Estatísticas com Validação</strong>: Aceite apenas números entre 0 e 1000 no programa anterior. <a href="./maior_menor_soma_validacao.py">Código</a></li>
-        <li><strong>Fatorial com Repetição</strong>: Calcule o fatorial várias vezes, limitando a números inteiros positivos menores que 16. <a href="./fatorial_com_repeticao.py">Código</a></li>
-        <li><strong>Verificador de Números Primos</strong>: Determine se um número inteiro é primo (divisível apenas por 1 e por ele mesmo). <a href="./numero_primo.py">Código</a></li>
-        <li><strong>Divisores de Números Não-Primos</strong>: Informe, para números não-primos, por quais números eles são divisíveis. <a href="./numero_primo_divisores.py">Código</a></li>
-        <li><strong>Lista de Números Primos</strong>: Mostre todos os primos entre 1 e N, com contagem de divisões executadas. <a href="./primos_1_a_n.py">Código</a></li>
-        <li><strong>Média de N Notas</strong>: Calcule e mostre a média aritmética de N notas. <a href="./media_n_notas.py">Código</a></li>
-        <li><strong>Classificação por Idade</strong>: Peça idades de n pessoas e classifique a turma como:
+        
+        <li>
+          <strong>Maior de Cinco Números</strong>: 
+          <p>Leia 5 números e informe o maior número.</p>
+          <a href="./maior_de_5_numeros.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Cálculo de Média</strong>: 
+          <p>Leia 5 números e informe a soma e a média.</p>
+          <a href="./soma_media_5_numeros.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Números Ímpares</strong>: 
+          <p>Imprima os números ímpares entre 1 e 50.</p>
+          <a href="./impares_1_a_50.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Intervalo Numérico</strong>: 
+          <p>Receba dois números inteiros e gere os números inteiros que estão no intervalo compreendido por eles.</p>
+          <a href="./intervalo_entre_numeros.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Soma de Intervalo</strong>: 
+          <p>Altere o programa anterior para mostrar a soma dos números no intervalo.</p>
+          <a href="./intervalo_com_soma.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Gerador de Tabuada</strong>: 
+          <p>Desenvolva um gerador de tabuada de qualquer número inteiro entre 1 e 10.</p>
+          <a href="./gerador_tabuada.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Cálculo de Potência</strong>: 
+          <p>Faça um programa que peça base e expoente e calcule a potência sem usar a função de potência da linguagem.</p>
+          <a href="./potencia_sem_funcao.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Contador de Pares e Ímpares</strong>: 
+          <p>Peça 10 números inteiros e mostre a quantidade de números pares e ímpares.</p>
+          <a href="./pares_impares.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Sequência Fibonacci (N-ésimo Termo)</strong>: 
+          <p>Gere a série de Fibonacci até o n-ésimo termo (sequência: 1,1,2,3,5,8...).</p>
+          <a href="./fibonacci_n_termo.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Fibonacci até Limite</strong>: 
+          <p>Gere a série de Fibonacci até que o valor seja maior que 500 (sequência: 0,1,1,2,3,5...).</p>
+          <a href="./fibonacci_ate_500.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Cálculo Fatorial</strong>: 
+          <p>Calcule o fatorial de um número inteiro fornecido (ex: 5! = 5.4.3.2.1 = 120).</p>
+          <a href="./fatorial.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Estatísticas de Números</strong>: 
+          <p>Dado um conjunto de N números, determine o menor valor, o maior valor e a soma dos valores.</p>
+          <a href="./maior_menor_soma.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Estatísticas com Validação</strong>: 
+          <p>Aceite apenas números entre 0 e 1000 no programa anterior.</p>
+          <a href="./maior_menor_soma_validacao.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Fatorial com Repetição</strong>: 
+          <p>Calcule o fatorial várias vezes, limitando a números inteiros positivos menores que 16.</p>
+          <a href="./fatorial_com_repeticao.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Verificador de Números Primos</strong>: 
+          <p>Determine se um número inteiro é primo (divisível apenas por 1 e por ele mesmo).</p>
+          <a href="./numero_primo.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Divisores de Números Não-Primos</strong>: 
+          <p>Informe, para números não-primos, por quais números eles são divisíveis.</p>
+          <a href="./numero_primo_divisores.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Lista de Números Primos</strong>: 
+          <p>Mostre todos os primos entre 1 e N, com contagem de divisões executadas.</p>
+          <a href="./primos_1_a_n.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Média de N Notas</strong>: 
+          <p>Calcule e mostre a média aritmética de N notas.</p>
+          <a href="./media_n_notas.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Classificação por Idade</strong>: 
+          <p>Peça idades de n pessoas e classifique a turma como:</p>
           <ul>
             <li>Jovem (média 0-25)</li>
             <li>Adulta (média 26-60)</li>
             <li>Idosa (média >60)</li>
           </ul>
-          <a href="./media_idade_turma.py">Código</a>
+          <a href="./media_idade_turma.py" class="code-link">Código</a>
         </li>
-        <li><strong>Simulador de Eleição</strong>: Numa eleição com três candidatos, peça votos para n eleitores e mostre o número de votos de cada candidato. <a href="./eleicao_3_candidatos.py">Código</a></li>
-        <li><strong>Média de Alunos por Turma</strong>: Calcule o número médio de alunos por turma (máximo 40 alunos por turma). <a href="./media_alunos_turma.py">Código</a></li>
-        <li><strong>Coleção de CDs</strong>: Calcule o valor total investido e o valor médio gasto em uma coleção de CDs. <a href="./investimento_cds.py">Código</a></li>
-        <li><strong>Tabela de Preços (R$1,99)</strong>: Gere tabela de preços de 1 até 50 produtos a R$1,99 cada. <a href="./tabela_precos_199.py">Código</a></li>
-        <li><strong>Tabela de Preços de Pães</strong>: Gere tabela de preços de 1 até 50 pães com preço informado pelo usuário. <a href="./tabela_precos_paes.py">Código</a></li>
-        <li><strong>Caixa Registradora</strong>: Implemente uma caixa registradora rudimentar que:
+        
+        <li>
+          <strong>Simulador de Eleição</strong>: 
+          <p>Numa eleição com três candidatos, peça votos para n eleitores e mostre o número de votos de cada candidato.</p>
+          <a href="./eleicao_3_candidatos.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Média de Alunos por Turma</strong>: 
+          <p>Calcule o número médio de alunos por turma (máximo 40 alunos por turma).</p>
+          <a href="./media_alunos_turma.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Coleção de CDs</strong>: 
+          <p>Calcule o valor total investido e o valor médio gasto em uma coleção de CDs.</p>
+          <a href="./investimento_cds.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Tabela de Preços (R$1,99)</strong>: 
+          <p>Gere tabela de preços de 1 até 50 produtos a R$1,99 cada.</p>
+          <a href="./tabela_precos_199.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Tabela de Preços de Pães</strong>: 
+          <p>Gere tabela de preços de 1 até 50 pães com preço informado pelo usuário.</p>
+          <a href="./tabela_precos_paes.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Caixa Registradora</strong>: 
+          <p>Implemente uma caixa registradora rudimentar que:</p>
           <ul>
             <li>Recebe valores de produtos até digitar 0</li>
             <li>Calcula total e troco</li>
             <li>Reinicia para próxima compra</li>
           </ul>
-          <a href="./caixa_registradora.py">Código</a>
+          <a href="./caixa_registradora.py" class="code-link">Código</a>
         </li>
-        <li><strong>Fatorial com Exibição Detalhada</strong>: Mostre o cálculo fatorial passo a passo (ex: 5! = 5.4.3.2.1 = 120). <a href="./fatorial_exemplo.py">Código</a></li>
-        <li><strong>Análise de Temperaturas</strong>: Leia temperaturas indeterminadas e informe:
+        
+        <li>
+          <strong>Fatorial com Exibição Detalhada</strong>: 
+          <p>Mostre o cálculo fatorial passo a passo (ex: 5! = 5.4.3.2.1 = 120).</p>
+          <a href="./fatorial_exemplo.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Análise de Temperaturas</strong>: 
+          <p>Leia temperaturas indeterminadas e informe:</p>
           <ul>
             <li>Maior e menor temperaturas</li>
             <li>Média das temperaturas</li>
           </ul>
-          <a href="./temperaturas.py">Código</a>
+          <a href="./temperaturas.py" class="code-link">Código</a>
         </li>
-        <li><strong>Verificação de Número Primo (Revisão)</strong>: Determine se um número é primo (aplicações em criptografia). <a href="./numero_primo_revisao.py">Código</a></li>
-        <li><strong>Gerador de Números Primos</strong>: Gere todos os números primos entre 1 e um número informado. <a href="./lista_primos.py">Código</a></li>
-        <li><strong>Tabuada Personalizada</strong>: Faça tabuada com intervalo personalizado (validar se final ≥ inicial). <a href="./tabuada_intervalo.py">Código</a></li>
-        <li><strong>Senso de Academia</strong>: Entre clientes de academia, encontre:
+        
+        <li>
+          <strong>Verificação de Número Primo (Revisão)</strong>: 
+          <p>Determine se um número é primo (aplicações em criptografia).</p>
+          <a href="./numero_primo_revisao.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Gerador de Números Primos</strong>: 
+          <p>Gere todos os números primos entre 1 e um número informado.</p>
+          <a href="./lista_primos.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Tabuada Personalizada</strong>: 
+          <p>Faça tabuada com intervalo personalizado (validar se final ≥ inicial).</p>
+          <a href="./tabuada_intervalo.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Senso de Academia</strong>: 
+          <p>Entre clientes de academia, encontre:</p>
           <ul>
             <li>Mais alto/baixo</li>
             <li>Mais gordo/magro</li>
             <li>Médias de altura/peso</li>
           </ul>
-          <a href="./senso_academia.py">Código</a>
+          <a href="./senso_academia.py" class="code-link">Código</a>
         </li>
-        <li><strong>Simulação de Aumento Salarial</strong>: Calcule salário atual com aumentos anuais progressivos a partir de 1995. <a href="./aumento_salarial.py">Código</a></li>
-        <li><strong>Altura dos Alunos</strong>: Entre 10 alunos, encontre o mais alto e o mais baixo com suas alturas. <a href="./altura_alunos.py">Código</a></li>
-        <li><strong>Estatísticas de Acidentes</strong>: Analise dados de acidentes em 5 cidades:
+        
+        <li>
+          <strong>Simulação de Aumento Salarial</strong>: 
+          <p>Calcule salário atual com aumentos anuais progressivos a partir de 1995.</p>
+          <a href="./aumento_salarial.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Altura dos Alunos</strong>: 
+          <p>Entre 10 alunos, encontre o mais alto e o mais baixo com suas alturas.</p>
+          <a href="./altura_alunos.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Estatísticas de Acidentes</strong>: 
+          <p>Analise dados de acidentes em 5 cidades:</p>
           <ul>
             <li>Maior/menor índice</li>
             <li>Médias de veículos e acidentes</li>
           </ul>
-          <a href="./estatisticas_acidentes.py">Código</a>
+          <a href="./estatisticas_acidentes.py" class="code-link">Código</a>
         </li>
-        <li><strong>Simulador de Dívida com Juros</strong>: Mostre tabela com opções de parcelamento e juros conforme regras:
+        
+        <li>
+          <strong>Simulador de Dívida com Juros</strong>: 
+          <p>Mostre tabela com opções de parcelamento e juros conforme regras:</p>
           <ul>
             <li>1 parcela: 0%</li>
             <li>3 parcelas: 10%</li>
@@ -123,10 +326,18 @@
             <li>9 parcelas: 20%</li>
             <li>12 parcelas: 25%</li>
           </ul>
-          <a href="./tabela_divida_juros.py">Código</a>
+          <a href="./tabela_divida_juros.py" class="code-link">Código</a>
         </li>
-        <li><strong>Contagem por Intervalos</strong>: Conte números positivos nos intervalos [0-25], [26-50], [51-75] e [76-100]. <a href="./contador_intervalos.py">Código</a></li>
-        <li><strong>Sistema de Lanchonete</strong>: Calcule valor total de pedido com cardápio fixo:
+        
+        <li>
+          <strong>Contagem por Intervalos</strong>: 
+          <p>Conte números positivos nos intervalos [0-25], [26-50], [51-75] e [76-100].</p>
+          <a href="./contador_intervalos.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Sistema de Lanchonete</strong>: 
+          <p>Calcule valor total de pedido com cardápio fixo:</p>
           <ul>
             <li>Cachorro Quente (100): R$1,20</li>
             <li>Bauru Simples (101): R$1,30</li>
@@ -135,42 +346,74 @@
             <li>Cheeseburguer (104): R$1,30</li>
             <li>Refrigerante (105): R$1,00</li>
           </ul>
-          <a href="./lanchonete_pedido.py">Código</a>
+          <a href="./lanchonete_pedido.py" class="code-link">Código</a>
         </li>
-        <li><strong>Urna Eletrônica</strong>: Simule eleição com 4 candidatos, votos nulos e em branco, mostrando:
+        
+        <li>
+          <strong>Urna Eletrônica</strong>: 
+          <p>Simule eleição com 4 candidatos, votos nulos e em branco, mostrando:</p>
           <ul>
             <li>Total por candidato</li>
             <li>Votos nulos/brancos</li>
             <li>Percentuais</li>
           </ul>
-          <a href="./eleicao_presidencial.py">Código</a>
+          <a href="./eleicao_presidencial.py" class="code-link">Código</a>
         </li>
-        <li><strong>Corretor Automático de Prova</strong>: Compare respostas com gabarito (A,B,C,D,E,E,D,C,B,A) e mostre:
+        
+        <li>
+          <strong>Corretor Automático de Prova</strong>: 
+          <p>Compare respostas com gabarito (A,B,C,D,E,E,D,C,B,A) e mostre:</p>
           <ul>
             <li>Maior/menor acerto</li>
             <li>Total de alunos</li>
             <li>Média da turma</li>
           </ul>
-          <a href="./prova_gabarito.py">Código</a>
+          <a href="./prova_gabarito.py" class="code-link">Código</a>
         </li>
-        <li><strong>Competição de Salto em Distância</strong>: Para cada atleta (5 saltos):
+        
+        <li>
+          <strong>Competição de Salto em Distância</strong>: 
+          <p>Para cada atleta (5 saltos):</p>
           <ul>
             <li>Elimine melhor/pior salto</li>
             <li>Calcule média dos 3 restantes</li>
           </ul>
-          <a href="./salto_distancia.py">Código</a>
+          <a href="./salto_distancia.py" class="code-link">Código</a>
         </li>
-        <li><strong>Competição de Tiro ao Alvo</strong>: Para cada jogador (5 tiros), calcule pontuação total e média. <a href="./competicao_tiro_ao_alvo.py">Código</a></li>
-        <li><strong>Análise de Temperaturas Anuais</strong>: Mostre meses com temperaturas acima da média anual. <a href="./temperaturas_acima_media_anual.py">Código</a></li>
-        <li><strong>Validação de Credenciais</strong>: Não permita login igual à senha, solicitando nova senha até válida. <a href="./validacao_login_senha.py">Código</a></li>
-        <li><strong>Tabela de Potências</strong>: Mostre tabela com números de 1 a N, seus quadrados e cubos. <a href="./tabela_quadrado_cubo.py">Código</a></li>
-        <li><strong>Leitura de Valores com Confirmação</strong>: Leia números até usuário desejar parar, mostrando:
+        
+        <li>
+          <strong>Competição de Tiro ao Alvo</strong>: 
+          <p>Para cada jogador (5 tiros), calcule pontuação total e média.</p>
+          <a href="./competicao_tiro_ao_alvo.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Análise de Temperaturas Anuais</strong>: 
+          <p>Mostre meses com temperaturas acima da média anual.</p>
+          <a href="./temperaturas_acima_media_anual.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Validação de Credenciais</strong>: 
+          <p>Não permita login igual à senha, solicitando nova senha até válida.</p>
+          <a href="./validacao_login_senha.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Tabela de Potências</strong>: 
+          <p>Mostre tabela com números de 1 a N, seus quadrados e cubos.</p>
+          <a href="./tabela_quadrado_cubo.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Leitura de Valores com Confirmação</strong>: 
+          <p>Leia números até usuário desejar parar, mostrando:</p>
           <ul>
             <li>Total de números</li>
             <li>Soma</li>
             <li>Média</li>
           </ul>
-          <a href="./leitura_valores_com_validacao.py">Código</a>
+          <a href="./leitura_valores_com_validacao.py" class="code-link">Código</a>
         </li>
       </ol>
     </article>

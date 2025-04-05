@@ -19,57 +19,149 @@
     a {
       color: #58a6ff;
     }
+    li {
+      margin-bottom: 1.5rem;
+      line-height: 1.6;
+    }
+    li > p {
+      margin: 0.5rem 0;
+    }
+    li > ul, li > ol {
+      margin: 0.5rem 0 1rem;
+      padding-left: 1.5rem;
+    }
+    .code-link {
+      display: block;
+      margin-top: 0.75rem;
+      font-weight: 500;
+    }
+    h1 {
+      border-bottom: 1px solid #30363d;
+      padding-bottom: 0.5rem;
+    }
+    h2 {
+      margin-top: 1.5rem;
+      border-bottom: 1px solid #30363d;
+      padding-bottom: 0.3rem;
+    }
   </style>
 </head>
 <body>
    <article class="markdown-body">
       <h1>Lista de Exercícios com Listas em Python</h1>
       <p>Aqui estão os exercícios para praticar manipulação de listas em Python. Clique nos links para acessar os códigos correspondentes.</p>
+      
       <h2>Exercícios</h2>
+      
       <ol>
-        <li><strong>Leitura de Vetor Inteiro</strong>: Faça um Programa que leia um vetor de 5 números inteiros e mostre-os. <a href="./5_numeros_inteiros.py">Código</a></li>
-        <li><strong>Vetor Invertido</strong>: Faça um Programa que leia um vetor de 10 números reais e mostre-os na ordem inversa. <a href="./10_numeros_reais.py">Código</a></li>
-        <li><strong>Cálculo de Média</strong>: Faça um Programa que leia 4 notas, mostre as notas e a média na tela. <a href="./media_4_notas.py">Código</a></li>
-        <li><strong>Contador de Consoantes</strong>: Faça um Programa que leia um vetor de 10 caracteres, e diga quantas consoantes foram lidas. Imprima as consoantes. <a href="./consoantes.py">Código</a></li>
-        <li><strong>Separador Par/Ímpar</strong>: Faça um Programa que leia 20 números inteiros e armazene:
+        <li>
+          <strong>Leitura de Vetor Inteiro</strong>:
+          <p>Faça um Programa que leia um vetor de 5 números inteiros e mostre-os.</p>
+          <a href="./5_numeros_inteiros.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Vetor Invertido</strong>:
+          <p>Faça um Programa que leia um vetor de 10 números reais e mostre-os na ordem inversa.</p>
+          <a href="./10_numeros_reais.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Cálculo de Média</strong>:
+          <p>Faça um Programa que leia 4 notas, mostre as notas e a média na tela.</p>
+          <a href="./media_4_notas.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Contador de Consoantes</strong>:
+          <p>Faça um Programa que leia um vetor de 10 caracteres, e diga quantas consoantes foram lidas. Imprima as consoantes.</p>
+          <a href="./consoantes.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Separador Par/Ímpar</strong>:
+          <p>Faça um Programa que leia 20 números inteiros e armazene:</p>
           <ul>
             <li>Números pares no vetor PAR</li>
             <li>Números ímpares no vetor IMPAR</li>
           </ul>
-          Imprima os três vetores. <a href="./20_numeros.py">Código</a>
+          <p>Imprima os três vetores.</p>
+          <a href="./20_numeros.py" class="code-link">Código</a>
         </li>
-        <li><strong>Média de Alunos</strong>: Faça um Programa que peça as quatro notas de 10 alunos, calcule e armazene as médias em um vetor, e imprima o número de alunos com média ≥ 7.0. <a href="./4_notas.py">Código</a></li>
-        <li><strong>Operações com Vetor</strong>: Faça um Programa que leia um vetor de 5 números inteiros, mostre:
+        
+        <li>
+          <strong>Média de Alunos</strong>:
+          <p>Faça um Programa que peça as quatro notas de 10 alunos, calcule e armazene as médias em um vetor, e imprima o número de alunos com média ≥ 7.0.</p>
+          <a href="./4_notas.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Operações com Vetor</strong>:
+          <p>Faça um Programa que leia um vetor de 5 números inteiros, mostre:</p>
           <ul>
             <li>Os números</li>
             <li>A soma</li>
             <li>A multiplicação</li>
           </ul>
-          <a href="./5_inteiros.py">Código</a>
+          <a href="./5_inteiros.py" class="code-link">Código</a>
         </li>
-        <li><strong>Dados Pessoais Invertidos</strong>: Faça um Programa que peça idade e altura de 5 pessoas, armazenando em vetores separados. Imprima os dados na ordem inversa. <a href="./5_pessoas.py">Código</a></li>
-        <li><strong>Soma de Quadrados</strong>: Faça um Programa que leia um vetor A com 10 números inteiros e mostre a soma dos quadrados dos elementos. <a href="./soma_quadrados.py">Código</a></li>
-        <li><strong>Intercalação de Vetores</strong>: Faça um Programa que leia dois vetores com 10 elementos cada e gere um terceiro vetor de 20 elementos intercalados. <a href="./intercalado.py">Código</a></li>
-        <li><strong>Intercalação de Três Vetores</strong>: Altere o programa anterior para intercalar 3 vetores de 10 elementos cada. <a href="./10_elementos.py">Código</a></li>
-        <li><strong>Análise de Alunos</strong>: Foram anotadas idades e alturas de 30 alunos. Determine quantos alunos com mais de 13 anos possuem altura inferior à média da turma. <a href="./30_alunis.py">Código</a></li>
-        <li><strong>Temperaturas Mensais</strong>: Faça um programa que:
+        
+        <li>
+          <strong>Dados Pessoais Invertidos</strong>:
+          <p>Faça um Programa que peça idade e altura de 5 pessoas, armazenando em vetores separados. Imprima os dados na ordem inversa.</p>
+          <a href="./5_pessoas.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Soma de Quadrados</strong>:
+          <p>Faça um Programa que leia um vetor A com 10 números inteiros e mostre a soma dos quadrados dos elementos.</p>
+          <a href="./soma_quadrados.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Intercalação de Vetores</strong>:
+          <p>Faça um Programa que leia dois vetores com 10 elementos cada e gere um terceiro vetor de 20 elementos intercalados.</p>
+          <a href="./intercalado.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Intercalação de Três Vetores</strong>:
+          <p>Altere o programa anterior para intercalar 3 vetores de 10 elementos cada.</p>
+          <a href="./10_elementos.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Análise de Alunos</strong>:
+          <p>Foram anotadas idades e alturas de 30 alunos. Determine quantos alunos com mais de 13 anos possuem altura inferior à média da turma.</p>
+          <a href="./30_alunos.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Temperaturas Mensais</strong>:
+          <p>Faça um programa que:</p>
           <ul>
             <li>Receba temperaturas médias de cada mês</li>
             <li>Calcule a média anual</li>
             <li>Mostre temperaturas acima da média com seus meses por extenso</li>
           </ul>
-          <a href="./temperatura.py">Código</a>
+          <a href="./temperatura.py" class="code-link">Código</a>
         </li>
-        <li><strong>Questionário Criminal</strong>: Faça um programa com 5 perguntas sobre um crime que classifica o entrevistado como:
+        
+        <li>
+          <strong>Questionário Criminal</strong>:
+          <p>Faça um programa com 5 perguntas sobre um crime que classifica o entrevistado como:</p>
           <ul>
             <li>2 respostas positivas: Suspeita</li>
             <li>3-4 respostas positivas: Cúmplice</li>
             <li>5 respostas positivas: Assassino</li>
             <li>Caso contrário: Inocente</li>
           </ul>
-          <a href="./crime.py">Código</a>
+          <a href="./crime.py" class="code-link">Código</a>
         </li>
-        <li><strong>Análise Completa de Notas</strong>: Faça um programa que leia valores indeterminados de notas (até digitar -1) e mostre:
+        
+        <li>
+          <strong>Análise Completa de Notas</strong>:
+          <p>Faça um programa que leia valores indeterminados de notas (até digitar -1) e mostre:</p>
           <ul>
             <li>Quantidade de valores</li>
             <li>Valores na ordem original (lado a lado)</li>
@@ -78,52 +170,89 @@
             <li>Valores acima da média</li>
             <li>Valores abaixo de 7</li>
           </ul>
-          <a href="./inderteminado.py">Código</a>
+          <a href="./indeterminado.py" class="code-link">Código</a>
         </li>
-        <li><strong>Distribuição Salarial</strong>: Calcule quantos vendedores receberam salários nos intervalos:
+        
+        <li>
+          <strong>Distribuição Salarial</strong>:
+          <p>Calcule quantos vendedores receberam salários nos intervalos:</p>
           <ul>
             <li>$200-$299</li>
             <li>$300-$399</li>
             <li>...</li>
             <li>$1000+</li>
           </ul>
-          Cada vendedor recebe $200 + 9% das vendas brutas. <a href="./salario.py">Código</a>
+          <p>Cada vendedor recebe $200 + 9% das vendas brutas.</p>
+          <a href="./salario.py" class="code-link">Código</a>
         </li>
-        <li><strong>Competição de Salto</strong>: Para cada atleta (5 saltos):
+        
+        <li>
+          <strong>Competição de Salto</strong>:
+          <p>Para cada atleta (5 saltos):</p>
           <ul>
             <li>Receba nome e distâncias</li>
             <li>Calcule média dos saltos</li>
             <li>Mostre nome, saltos e média</li>
           </ul>
-          Encerre quando nome for vazio. <a href="./atleta.py">Código</a>
+          <p>Encerre quando nome for vazio.</p>
+          <a href="./atleta.py" class="code-link">Código</a>
         </li>
-        <li><strong>Enquete de Melhor Jogador</strong>: Receba votos (números 1-23) para melhor jogador e mostre:
+        
+        <li>
+          <strong>Enquete de Melhor Jogador</strong>:
+          <p>Receba votos (números 1-23) para melhor jogador e mostre:</p>
           <ul>
             <li>Total de votos</li>
             <li>Votos por jogador</li>
             <li>Percentual de votos</li>
             <li>Melhor jogador (mais votos)</li>
           </ul>
-          <a href="./emissora.py">Código</a>
+          <a href="./emissora.py" class="code-link">Código</a>
         </li>
-        <li><strong>Pesquisa de Sistema Operacional</strong>: Tabule resultados da enquete: "Qual o melhor Sistema Operacional para servidores?" <a href="./empresa.py">Código</a></li>
-        <li><strong>Projeção de Abono Salarial</strong>: Calcule projeção de gastos com abonos para colaboradores. <a href="./tabajara.py">Código</a></li>
-        <li><strong>Comparativo de Carros</strong>: Para 5 modelos de carros e seus consumos:
+        
+        <li>
+          <strong>Pesquisa de Sistema Operacional</strong>:
+          <p>Tabule resultados da enquete: "Qual o melhor Sistema Operacional para servidores?"</p>
+          <a href="./empresa.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Projeção de Abono Salarial</strong>:
+          <p>Calcule projeção de gastos com abonos para colaboradores.</p>
+          <a href="./tabajara.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Comparativo de Carros</strong>:
+          <p>Para 5 modelos de carros e seus consumos:</p>
           <ul>
             <li>Mostre o modelo mais econômico</li>
             <li>Calcule consumo e custo para 1000km (gasolina a R$2,25)</li>
           </ul>
-          <a href="./carros.py">Código</a>
+          <a href="./carros.py" class="code-link">Código</a>
         </li>
-        <li><strong>Inventário de Mouses</strong>: Teste e classifique 200 mouses quanto ao estado para reaproveitamento. <a href="./estagio.py">Código</a></li>
-        <li><strong>Monitoramento de Disco</strong>: Para 500 funcionários:
+        
+        <li>
+          <strong>Inventário de Mouses</strong>:
+          <p>Teste e classifique 200 mouses quanto ao estado para reaproveitamento.</p>
+          <a href="./estagio.py" class="code-link">Código</a>
+        </li>
+        
+        <li>
+          <strong>Monitoramento de Disco</strong>:
+          <p>Para 500 funcionários:</p>
           <ul>
             <li>Identifique espaço ocupado por usuários</li>
             <li>Mostre maiores consumidores de espaço</li>
           </ul>
-          <a href="./acme.py">Código</a>
+          <a href="./acme.py" class="code-link">Código</a>
         </li>
-        <li><strong>Simulação de Dados</strong>: Simule 100 lançamentos de dado e mostre quantas vezes cada valor (1-6) foi obtido. <a href="./dados.py">Código</a></li>
+        
+        <li>
+          <strong>Simulação de Dados</strong>:
+          <p>Simule 100 lançamentos de dado e mostre quantas vezes cada valor (1-6) foi obtido.</p>
+          <a href="./dados.py" class="code-link">Código</a>
+        </li>
       </ol>
     </article>
 </body>
