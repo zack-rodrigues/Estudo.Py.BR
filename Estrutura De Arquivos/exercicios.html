@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercícios com Arquivos</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.0/github-markdown-dark.min.css">
+  <style>
+    body {
+      background-color: #0d1117;
+      color: #c9d1d9;
+      font-family: system-ui, sans-serif;
+      padding: 2rem;
+      display: flex;
+      justify-content: center;
+    }
+    .markdown-body {
+      max-width: 900px;
+    }
+    a {
+      color: #58a6ff;
+    }
+    pre {
+      background-color: #161b22;
+      padding: 1rem;
+      border-radius: 6px;
+      overflow-x: auto;
+    }
+    .file-icon {
+      font-size: 1.2em;
+      margin-right: 5px;
+    }
+    .exercise {
+      border-bottom: 1px solid #30363d;
+      padding-bottom: 2rem;
+      margin-bottom: 2rem;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 1rem 0;
+    }
+    th, td {
+      border: 1px solid #30363d;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #161b22;
+    }
+  </style>
+</head>
+<body>
+  <article class="markdown-body">
+    <h1>📁 Exercícios com Arquivos</h1>
+    
+    <div class="exercise">
+      <h2>1. <strong>Validador de Endereços IP</strong></h2>
+      <p>Faça um programa que leia um arquivo texto contendo uma lista de endereços IP e gere um outro arquivo, contendo um relatório dos endereços IP válidos e inválidos.</p>
+      
+      <h3><span class="file-icon">📅</span> Arquivo de entrada (<code>ips.txt</code>)</h3>
+      <pre>200.135.80.9
+192.168.1.1
+8.35.67.74
+257.32.4.5
+85.345.1.2
+1.2.3.4
+9.8.234.5
+192.168.0.256</pre>
+      
+      <h3><span class="file-icon">📄</span> Arquivo de saída (<code>relatorio_ips.txt</code>)</h3>
+      <pre>[Endereços válidos:]
+200.135.80.9
+192.168.1.1
+8.35.67.74
+1.2.3.4
+
+[Endereços inválidos:]
+257.32.4.5
+85.345.1.2
+9.8.234.5
+192.168.0.256</pre>
+      
+      <a href="./validador_ips.py">Código</a>
+    </div>
+    
+    <div class="exercise">
+      <h2>2. <strong>Relatório de Espaço em Disco por Usuário</strong></h2>
+      <p>A ACME Inc., uma empresa de 500 funcionários, está tendo problemas de espaço em disco no seu servidor de arquivos. Para tentar resolver este problema, o Administrador de Rede precisa saber qual o espaço ocupado pelos usuários, e identificar os usuários com maior espaço ocupado.</p>
+      
+      <p>O administrador possui um arquivo com o seguinte conteúdo:</p>
+      
+      <h3><span class="file-icon">📅</span> Arquivo de entrada (<code>usuarios.txt</code>)</h3>
+      <pre>alexandre       456123789
+anderson        1245698456
+antonio         123456456
+carlos          91257581
+cesar           987458
+rosemary        789456125</pre>
+      
+      <p>O nome do usuário possui exatamente 15 caracteres. A partir deste arquivo, você deve criar um relatório com:</p>
+      <ul>
+        <li>Espaço utilizado em MB</li>
+        <li>Porcentagem do uso</li>
+        <li>Espaço total ocupado</li>
+        <li>Espaço médio ocupado</li>
+      </ul>
+      
+      <h3><span class="file-icon">📄</span> Arquivo de saída (<code>relatorio.txt</code>)</h3>
+      <pre>ACME Inc.               Uso do espaço em disco pelos usuários
+--------------------------------------------------------------
+Nr.  Usuário        Espaço utilizado     % do uso
+1    alexandre      434,99 MB            16,85%
+2    anderson      1187,99 MB            46,02%
+3    antonio        117,73 MB             4,56%
+4    carlos          87,03 MB             3,37%
+5    cesar            0,94 MB             0,04%
+6    rosemary       752,88 MB            29,16%
+
+Espaço total ocupado: 2581,57 MB
+Espaço médio ocupado: 430,26 MB</pre>
+      
+      <a href="./relatorio_usuarios.py">Código</a>
+    </div>
+  </article>
+</body>
+</html>
