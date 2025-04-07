@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercícios com Classes em Python</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.0/github-markdown-dark.min.css">
+  <style>
+    body {
+      background-color: #0d1117;
+      color: #c9d1d9;
+      font-family: system-ui, sans-serif;
+      padding: 2rem;
+      display: flex;
+      justify-content: center;
+    }
+    .markdown-body {
+      max-width: 900px;
+    }
+    a {
+      color: #58a6ff;
+    }
+    .exercise {
+      border-bottom: 1px solid #30363d;
+      padding-bottom: 2rem;
+      margin-bottom: 2rem;
+    }
+    .file-icon {
+      font-size: 1.2em;
+      margin-right: 5px;
+    }
+    .class-info {
+      background-color: #161b22;
+      border-left: 4px solid #58a6ff;
+      padding: 1rem;
+      margin: 1rem 0;
+      border-radius: 0 6px 6px 0;
+    }
+    .attribute {
+      color: #79c0ff;
+    }
+    .method {
+      color: #d2a8ff;
+    }
+    h2 {
+      border-bottom: 1px solid #30363d;
+      padding-bottom: 0.3em;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <article class="markdown-body">
+    <h1>📁 Exercícios com Classes em Python</h1>
+
+    <div class="exercise">
+      <h2>1. <strong>Classe Bola</strong></h2>
+      <div class="class-info">
+        <p><span class="attribute">Atributos</span>: Cor, circunferência, material</p>
+        <p><span class="method">Métodos</span>: <code>trocaCor</code>, <code>mostraCor</code></p>
+      </div>
+      <a href="./classe_bola.py">Código</a>
+    </div>
+
+    <div class="exercise">
+      <h2>2. <strong>Classe Quadrado</strong></h2>
+      <div class="class-info">
+        <p><span class="attribute">Atributo</span>: Tamanho do lado</p>
+        <p><span class="method">Métodos</span>: <code>mudarLado</code>, <code>retornarLado</code>, <code>calcularArea</code></p>
+      </div>
+      <a href="./classe_quadrado.py">Código</a>
+    </div>
+
+    <div class="exercise">
+      <h2>3. <strong>Classe Retângulo</strong></h2>
+      <div class="class-info">
+        <p><span class="attribute">Atributos</span>: ladoA, ladoB</p>
+        <p><span class="method">Métodos</span>: <code>mudarLados</code>, <code>retornarLados</code>, <code>calcularArea</code>, <code>calcularPerimetro</code></p>
+        <p><strong>Extra</strong>: Calcular quantidade de pisos e rodapés para medidas fornecidas pelo usuário.</p>
+      </div>
+      <a href="./classe_retangulo.py">Código</a>
+    </div>
+
+    <div class="exercise">
+      <h2>4. <strong>Classe Pessoa</strong></h2>
+      <div class="class-info">
+        <p><span class="attribute">Atributos</span>: nome, idade, peso, altura</p>
+        <p><span class="method">Métodos</span>: <code>envelhecer</code>, <code>engordar</code>, <code>emagrecer</code>, <code>crescer</code></p>
+      </div>
+      <a href="./classe_pessoa.py">Código</a>
+    </div>
+
+    <div class="exercise">
+      <h2>5. <strong>Classe Conta Corrente</strong></h2>
+      <div class="class-info">
+        <p><span class="attribute">Atributos</span>: número da conta, nome do correntista, saldo (default = 0)</p>
+        <p><span class="method">Métodos</span>: <code>alterarNome</code>, <code>depositar</code>, <code>sacar</code></p>
+      </div>
+      <a href="./classe_conta_corrente.py">Código</a>
+    </div>
+
+    <div class="exercise">
+      <h2>6. <strong>Classe TV</strong></h2>
+      <div class="class-info">
+        <p><span class="attribute">Atributos</span>: canal, volume</p>
+        <p><span class="method">Métodos</span>: <code>mudarCanal</code>, <code>aumentarVolume</code>, <code>diminuirVolume</code></p>
+        <p><strong>Validação</strong>: manter canal e volume dentro de limites válidos.</p>
+      </div>
+      <a href="./classe_tv.py">Código</a>
+    </div>
+
+    <div class="exercise">
+      <h2>7. <strong>Classe Bichinho Virtual (Tamagushi)</strong></h2>
+      <div class="class-info">
+        <p><span class="attribute">Atributos</span>: nome, fome, saúde, idade</p>
+        <p><span class="method">Métodos</span>: <code>alterarNome</code>, <code>alterarFome</code>, <code>alterarSaude</code>, <code>alterarIdade</code>, <code>retornarHumor</code></p>
+      </div>
+      <a href="./classe_bichinho.py">Código</a>
+    </div>
+
+    <div class="exercise">
+      <h2>8. <strong>Classe Macaco</strong></h2>
+      <div class="class-info">
+        <p><span class="attribute">Atributos</span>: nome, bucho (lista de alimentos)</p>
+        <p><span class="method">Métodos</span>: <code>comer</code>, <code>verBucho</code>, <code>digerir</code></p>
+        <p><strong>Extra</strong>: Testar macaco canibal (um comer o outro)</p>
+      </div>
+      <a href="./classe_macaco.py">Código</a>
+    </div>
+
+    <div class="exercise">
+      <h2>9. <strong>Classe Ponto e Retângulo</strong></h2>
+      <div class="class-info">
+        <ul>
+          <li>Classe <code>Ponto</code>: atributos x e y</li>
+          <li>Classe <code>Retangulo</code>: atributos largura, altura, ponto de origem (classe <code>Ponto</code>)</li>
+          <li><strong>Funções</strong>: imprimir ponto, encontrar centro do retângulo</li>
+          <li>Criar menu para alterar retângulo e imprimir centro</li>
+        </ul>
+      </div>
+      <a href="./classe_ponto_retangulo.py">Código</a>
+    </div>
+
+    <div class="exercise">
+      <h2>10. <strong>Classe Bomba de Combustível</strong></h2>
+      <div class="class-info">
+        <p><span class="attribute">Atributos</span>: tipoCombustivel, valorLitro, quantidadeCombustivel</p>
+        <p><span class="method">Métodos</span>:
+          <ul>
+            <li><code>abastecerPorValor</code></li>
+            <li><code>abastecerPorLitro</code></li>
+            <li><code>alterarValor</code></li>
+            <li><code>alterarCombustivel</code></li>
+            <li><code>alterarQuantidadeCombustivel</code></li>
+          </ul>
+        </p>
+      </div>
+      <a href="./classe_bomba.py">Código</a>
+    </div>
+
+    <div class="exercise">
+      <h2>11. <strong>Classe Carro</strong></h2>
+      <div class="class-info">
+        <p><span class="attribute">Atributos</span>: consumo (km/litro), combustível (inicia em 0)</p>
+        <p><span class="method">Métodos</span>:
+          <ul>
+            <li><code>andar(distancia)</code></li>
+            <li><code>obterGasolina()</code></li>
+            <li><code>adicionarGasolina(qtde)</code></li>
+          </ul>
+        </p>
+      </div>
+      <a href="./classe_carro.py">Código</a>
+    </div>
+
+    <div class="exercise">
+      <h2>12. <strong>Classe Conta de Investimento</strong></h2>
+      <div class="class-info">
+        <p><span class="attribute">Atributos</span>: saldo, taxaJuros</p>
+        <p><span class="method">Método</span>: <code>adicioneJuros()</code></p>
+        <p><strong>Exemplo</strong>: criar conta com R$1000, taxa 10%, aplicar juros 5 vezes</p>
+      </div>
+      <a href="./classe_investimento.py">Código</a>
+    </div>
+
+    <div class="exercise">
+      <h2>13. <strong>Classe Funcionário</strong></h2>
+      <div class="class-info">
+        <p><span class="attribute">Atributos</span>: nome, salário</p>
+        <p><span class="method">Métodos</span>: <code>getNome()</code>, <code>getSalario()</code>, <code>aumentarSalario(porcentagem)</code></p>
+      </div>
+      <a href="./classe_funcionario.py">Código</a>
+    </div>
+
+    <div class="exercise">
+      <h2>14. <strong>Classe Bichinho Virtual++</strong></h2>
+      <div class="class-info">
+        <p>Melhore o programa do bichinho virtual:</p>
+        <ul>
+          <li>Especificar quantidade de comida e tempo de brincadeira</li>
+          <li>"Porta escondida" que mostra valores exatos do objeto (<code>__str__</code>)</li>
+          <li>Criar uma fazenda com vários bichinhos (lista de objetos)</li>
+          <li>Controlar todos ao mesmo tempo (alimentar, brincar, ouvir)</li>
+        </ul>
+      </div>
+      <a href="./classe_bichinho_plus.py">Código</a>
+    </div>
+  </article>
+</body>
+</html>
