@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercícios com Classes</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.0/github-markdown-dark.min.css">
+  <style>
+    body {
+      background-color: #0d1117;
+      color: #c9d1d9;
+      font-family: system-ui, sans-serif;
+      padding: 2rem;
+      display: flex;
+      justify-content: center;
+    }
+    .markdown-body {
+      max-width: 900px;
+    }
+    a {
+      color: #58a6ff;
+    }
+    pre {
+      background-color: #161b22;
+      padding: 1rem;
+      border-radius: 6px;
+      overflow-x: auto;
+    }
+    .exercise {
+      border-bottom: 1px solid #30363d;
+      padding-bottom: 2rem;
+      margin-bottom: 2rem;
+    }
+    .resources {
+      background: #161b22;
+      padding: 1rem;
+      border-radius: 6px;
+      margin: 1rem 0;
+    }
+    h2 {
+      border-bottom: 1px solid #30363d;
+      padding-bottom: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <article class="markdown-body">
+    <h1>📁 Exercícios com Classes</h1>
+
+    <div class="exercise">
+      <h2>1. Controle de cotas de disco <a href="./controle-cotas-disco.py">[código]</a></h2>
+      <p>A <strong>ACME Inc.</strong>, uma organização com mais de 1500 funcionários, está tendo problemas de espaço em disco no seu servidor de arquivos.</p>
+      
+      <h3>Arquivo de entrada (<code>usuarios.txt</code>):</h3>
+      <pre>alexandre       456123789
+anderson        1245698456
+antonio         123456456
+carlos          91257581
+cesar           987458
+rosemary        789456125</pre>
+
+      <h3>Relatório gerado (<code>relatório.txt</code>):</h3>
+      <pre>ACME Inc.           Uso do espaço em disco pelos usuários
+------------------------------------------------------------------------
+Nr.  Usuário        Espaço utilizado     % do uso
+
+1    alexandre       434,99 MB            16,85%
+2    anderson       1187,99 MB            46,02%
+3    antonio         117,73 MB             4,56%
+4    carlos           87,03 MB             3,37%
+5    cesar             0,94 MB             0,04%
+6    rosemary        752,88 MB            29,16%
+
+Espaço total ocupado: 2581,57 MB
+Espaço médio ocupado: 430,26 MB</pre>
+
+      <div class="resources">
+        <strong>Recursos adicionais (opcional):</strong>
+        <ul>
+          <li>Ordenar os usuários pelo percentual de espaço ocupado</li>
+          <li>Mostrar apenas os <em>n</em> primeiros em uso, definido pelo usuário</li>
+          <li>Gerar a saída numa página <strong>HTML</strong></li>
+          <li>Criar o programa que <strong>lê as pastas e gera o arquivo inicial</strong></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="exercise">
+      <h2>2. Analisador de logs do Apache <a href="./analisador-logs-apache.py">[código]</a></h2>
+      <p>Desenvolva um analisador de log do Apache que mostre quais as <strong>strings de pesquisa do Google</strong> que mais levam internautas para o site da sua organização.</p>
+    </div>
+
+    <div class="exercise">
+      <h2>3. Analisador de logs do Squid: sites bloqueados <a href="./analisador-logs-squid.py">[código]</a></h2>
+      <p>Desenvolva um analisador de log do Squid que mostre <strong>quais os sites mais bloqueados</strong> em uma organização.</p>
+    </div>
+  </article>
+</body>
+</html>
