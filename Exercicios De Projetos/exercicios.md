@@ -1,4 +1,4 @@
-# 📁 Exercícios com Classes
+# 📁 Exercícios com Projetos
 
 ### 1. Controle de cotas de disco ([código](./controle-cotas-disco.py))
 
