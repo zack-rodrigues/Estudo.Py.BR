@@ -35,9 +35,9 @@ Bem-vindo ao seu playground de Python! Aqui você encontra exercícios organizad
 
 ## 🛠️ Ferramentas Recomendadas
 
-- ✅ Python 3.10+  
+- ✅ [Python 3.10+](https://www.python.org/downloads/) download  
 - ✅ [VS Code](https://code.visualstudio.com/) com extensão Python  
-- ✅ Jupyter Notebook para testes e experimentação  
+- ✅ [Jupyter Notebook](https://jupyter.org/) para testes e experimentação  
 
 ---
 
