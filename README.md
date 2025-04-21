@@ -2,7 +2,7 @@
 ## 🐍 **Exercícios em Python - Trilha de Aprendizado**
 Bem-vindo ao seu playground de Python! Aqui você encontra exercícios organizados por temas e dificuldade para evoluir suas habilidades.
 
-
+Por aqui, temos a versão em repositório e também a versão em site. Caso queira visitar o site para um estudo com menos distrações, fique à vontade e **clique aqui ➡️ [Site](https://zack-rodrigues.github.io/Estudo.Py.BR/)**
 
 ## 🗂️ Estrutura do Repositório
 
@@ -20,9 +20,11 @@ Bem-vindo ao seu playground de Python! Aqui você encontra exercícios organizad
 | ⭐️⭐️⭐️      | Exercícios com Classes   | POO: classes, atributos e métodos                               | [Exercícios](./Estrutura%20De%20Classes/exercicios.md)              |
 | ⭐️⭐️⭐️⭐️    | Projetos Práticos        | Mini-projetos usando tudo que foi aprendido                     | [Exercícios](./Exercicios%20De%20Projetos/exercicios.md)            |
 
-
+<br>
 
 ## 🚀 Comece Aqui!
+
+
 
 ### 📌 Como Usar
 
@@ -33,13 +35,13 @@ Bem-vindo ao seu playground de Python! Aqui você encontra exercícios organizad
 
 ---
 
-## 🛠️ Ferramentas Recomendadas
+### 🛠️ Ferramentas Recomendadas
 
 - ✅ [Python 3.10+](https://www.python.org/downloads/) download  
 - ✅ [VS Code](https://code.visualstudio.com/) com extensão Python  
 - ✅ [Jupyter Notebook](https://jupyter.org/) para testes e experimentação  
 
----
+<br>
 
 ## 🌟 Recursos Extras
 
@@ -49,7 +51,7 @@ Bem-vindo ao seu playground de Python! Aqui você encontra exercícios organizad
 | 🎓 Curso Gratuito       | Curso interativo para iniciantes                | [Codecademy - Python](https://www.codecademy.com/learn/learn-python-3) |
 | 📘 Livro Digital        | Automatize tarefas com Python                   | [Automate the Boring Stuff](https://automatetheboringstuff.com/)       |
 
----
+<br>
 
 ## 🤝 Contribuições
 
@@ -60,12 +62,12 @@ Adoramos contribuições! Aqui está como você pode ajudar:
 - 📤 Envie um Pull Request  
 - 🎉 Participe das discussões nas Issues  
 
----
+<br>
 
 ## 📜 Licença
 
 Este projeto é open-source sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
 
----
+<br>
 
 > Projeto criado por **[zack-rodrigues](https://github.com/zack-rodrigues)**
