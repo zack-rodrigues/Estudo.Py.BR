@@ -13,7 +13,6 @@ id,item_name,price,quantity,brand
 12,Mouse Gamer,1482.47,11,Razer
 13,Cadeira Gamer Lite,1425.97,82,DXRacer
 14,Notebook Max,1808.59,86,Lenovo
-15,Headset,3193.14,69,JBL
 16,Cadeira Gamer Lite,1928.3,82,ThunderX3
 17,Webcam,1655.2,99,Logitech
 18,Mouse Gamer,208.9,41,Razer
@@ -9999,4 +9998,3 @@ id,item_name,price,quantity,brand
 9998,Carregador Plus,4251.37,55,Anker
 9999,Headset Pro,4989.05,1,Logitech
 10000,Mouse Gamer,3985.62,16,Redragon
-
