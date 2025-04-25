@@ -1,78 +1,137 @@
+import tkinter as tk
+from tkinter import simpledialog, messagebox
 import pandas as pd
 
+ARQUIVO = 'database.csv'
+
 def cadastrar_item():
+    try:
+        df = pd.read_csv(ARQUIVO, dtype={'id': str})
+    except FileNotFoundError:
+        df = pd.DataFrame(columns=['id', 'item_name', 'price', 'quantity', 'brand'])
 
-    df = pd.read_csv('database.csv', dtype={'id': str})
     new_id = df['id'].astype(int).max() + 1 if not df.empty else 1
-    new_item_name = input('Digite o nome do item que deseja adicionar: ')
-    new_price = float(input('Digite o preço: '))
-    new_qty = int(input('Digite a quantidade: '))
-    new_brand = input('Digite a marca do produto: ')
+    item_name = simpledialog.askstring("Cadastrar", "Digite o nome do item:")
+    price = simpledialog.askfloat("Cadastrar", "Digite o preço:")
+    quantity = simpledialog.askinteger("Cadastrar", "Digite a quantidade:")
+    brand = simpledialog.askstring("Cadastrar", "Digite a marca do produto:")
 
-    df = pd.concat([df, pd.DataFrame([{'id': new_id, 'item_name': new_item_name, 'price': new_price, 'quantity': new_qty, 'brand': new_brand}])], ignore_index=True)
-    df.to_csv('database.csv', index=False)
-    print(f'Item {new_item_name} cadastrado com sucesso!')
+    if None in (item_name, price, quantity, brand):
+        return
 
+    df = pd.concat([df, pd.DataFrame([{
+        'id': new_id,
+        'item_name': item_name,
+        'price': price,
+        'quantity': quantity,
+        'brand': brand
+    }])], ignore_index=True)
 
+    df.to_csv(ARQUIVO, index=False)
+    messagebox.showinfo("Sucesso", f'Item "{item_name}" cadastrado com sucesso!')
 
 def busca_item():
-   
-    df = pd.read_csv('database.csv', dtype={'id': str})
-    palavrachave = input('Digite o item para buscar: ').lower()
-    marca = input('Digite a marca do produto: ').lower()
-    df_filtrado = df[df['item_name'].str.contains(palavrachave, case=False) & df['brand'].str.contains(marca, case=False)]
-    df_filtrado_sorted = df_filtrado.sort_values(by='price', ascending=False)
+    try:
+        df = pd.read_csv(ARQUIVO, dtype={'id': str})
+    except FileNotFoundError:
+        messagebox.showwarning("Erro", "Arquivo não encontrado.")
+        return
 
-    for _, item in df_filtrado_sorted.iterrows():
-        print(item.to_dict())
+    palavra = simpledialog.askstring("Buscar", "Digite o item para buscar:")
+    marca = simpledialog.askstring("Buscar", "Digite a marca do produto:")
 
+    if not palavra or not marca:
+        return
+
+    filtrado = df[df['item_name'].str.contains(palavra, case=False) & df['brand'].str.contains(marca, case=False)]
+    filtrado = filtrado.sort_values(by='price', ascending=False)
+
+    if filtrado.empty:
+        messagebox.showinfo("Busca", "Nenhum item encontrado.")
+        return
+
+    # Janela com rolagem
+    result_window = tk.Toplevel(root)
+    result_window.title("Resultados da Busca")
+    result_window.geometry("600x400")
+
+    scrollbar = tk.Scrollbar(result_window)
+    scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+
+    text_area = tk.Text(result_window, wrap=tk.WORD, yscrollcommand=scrollbar.set)
+    text_area.pack(expand=True, fill=tk.BOTH)
+
+    for _, row in filtrado.iterrows():
+        texto = (
+            f"ID: {row['id']}\n"
+            f"Nome: {row['item_name']}\n"
+            f"Marca: {row['brand']}\n"
+            f"Preço: R${row['price']}\n"
+            f"Quantidade: {row['quantity']}\n"
+            + "-"*50 + "\n"
+        )
+        text_area.insert(tk.END, texto)
+
+    scrollbar.config(command=text_area.yview)
 
 def remover_item():
+    try:
+        df = pd.read_csv(ARQUIVO, dtype={'id': str})
+    except FileNotFoundError:
+        messagebox.showwarning("Erro", "Arquivo não encontrado.")
+        return
 
-    id_remove = input('Digite o ID que deseja remover: ')
-    df = pd.read_csv('database.csv', dtype={'id': str})
-    df_filtrado = df[df['id'] != id_remove]
-    df_filtrado.to_csv('database.csv', index=False)
+    id_remove = simpledialog.askstring("Remover", "Digite o ID do item a remover:")
+    if not id_remove:
+        return
 
-    print(f'Item com ID {id_remove} removido com sucesso (se existia).')
+    df_novo = df[df['id'] != id_remove]
+    df_novo.to_csv(ARQUIVO, index=False)
 
-
+    messagebox.showinfo("Remover", f'Item com ID {id_remove} removido (se existia).')
 
 def editar_item():
-    df = pd.read_csv('database.csv', dtype={'id': str})
-    id_editar = input('Digite o ID do item que deseja editar: ')
+    try:
+        df = pd.read_csv(ARQUIVO, dtype={'id': str})
+    except FileNotFoundError:
+        messagebox.showwarning("Erro", "Arquivo não encontrado.")
+        return
+
+    id_editar = simpledialog.askstring("Editar", "Digite o ID do item a editar:")
+    if not id_editar:
+        return
+
+    if id_editar not in df['id'].values:
+        messagebox.showerror("Erro", "ID não encontrado.")
+        return
+
     item = df[df['id'] == id_editar].iloc[0]
+    nome = simpledialog.askstring("Editar", f'Nome atual: {item["item_name"]}\nNovo nome:')
+    preco = simpledialog.askstring("Editar", f'Preço atual: {item["price"]}\nNovo preço:')
+    qtd = simpledialog.askstring("Editar", f'Quantidade atual: {item["quantity"]}\nNova quantidade:')
+    marca = simpledialog.askstring("Editar", f'Marca atual: {item["brand"]}\nNova marca:')
 
-    print(f"Item encontrado: {item['item_name']} - {item['brand']} - {item['price']}")
-
-    new_item_name = input(f'Digite o novo nome do item (ou pressione Enter para manter "{item["item_name"]}"): ')
-    new_price = input(f'Digite o novo preço (ou pressione Enter para manter {item["price"]}): ')
-    new_qty = input(f'Digite a nova quantidade (ou pressione Enter para manter {item["quantity"]}): ')
-    new_brand = input(f'Digite a nova marca (ou pressione Enter para manter "{item["brand"]}"): ')
-
-    if new_item_name: item['item_name'] = new_item_name
-    if new_price: item['price'] = float(new_price)
-    if new_qty: item['quantity'] = int(new_qty)
-    if new_brand: item['brand'] = new_brand
+    if nome: item['item_name'] = nome
+    if preco: item['price'] = float(preco)
+    if qtd: item['quantity'] = int(qtd)
+    if marca: item['brand'] = marca
 
     df.loc[df['id'] == id_editar] = item
+    df.to_csv(ARQUIVO, index=False)
 
-    df.to_csv('database.csv', index=False)
-    print(f'Item com ID {id_editar} atualizado com sucesso!')
+    messagebox.showinfo("Editar", f"Item com ID {id_editar} atualizado com sucesso.")
 
+# UI principal
+root = tk.Tk()
+root.title("Gerenciador de Itens")
+root.geometry("320x350")
 
-print('MENU DE OPERAÇÕES \n1.Buscar item \n2.Cadastrar item \n3.Editar item \n4.Remover item')
+tk.Label(root, text="Menu de Operações", font=("Helvetica", 14, "bold")).pack(pady=10)
 
-option_selected=input('Selecione uma opção:')
-valid_options=['1','2','3','4','5']
-while option_selected not in valid_options:
- if option_selected == '1':
-    busca_item()
- elif option_selected == '2':
-    cadastrar_item()
- elif option_selected == '3':
-    editar_item()
- elif option_selected == '4':
-    remover_item()
- else:
-    print('Digite uma opção Válida')
+tk.Button(root, text="1. Buscar item", width=30, command=busca_item).pack(pady=5)
+tk.Button(root, text="2. Cadastrar item", width=30, command=cadastrar_item).pack(pady=5)
+tk.Button(root, text="3. Editar item", width=30, command=editar_item).pack(pady=5)
+tk.Button(root, text="4. Remover item", width=30, command=remover_item).pack(pady=5)
+tk.Button(root, text="5. Sair", width=30, command=root.quit, fg="red").pack(pady=20)
+
+root.mainloop()
