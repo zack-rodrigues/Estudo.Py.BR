@@ -9,16 +9,11 @@ def cadastrar_item():
     new_qty = int(input('Digite a quantidade: '))
     new_brand = input('Digite a marca do produto: ')
 
-    df = pd.concat([df, pd.DataFrame([{
-        'id': new_id,
-        'item_name': new_item_name,
-        'price': new_price,
-        'quantity': new_qty,
-        'brand': new_brand
-    }])], ignore_index=True)
+    df.loc[len(df)] = [new_id, new_item_name, new_price, new_qty, new_brand]
     
     df.to_csv('database.csv', index=False)
     print(f'Item {new_item_name} cadastrado com sucesso!')
+
 
 def busca_item():
     df = pd.read_csv('database.csv', dtype={'id': str})
